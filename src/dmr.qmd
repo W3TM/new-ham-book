@@ -1,0 +1,48 @@
+# [DMR] {- #quest-dmr}
+
+:::{.infobox}
+
+These activities are relevant to the following license pool questions:
+
+[T2B12](#T2B12); [T4B07](#T4B07); [T8D02](#T8D02); [T8D07](#T8D07).
+
+:::
+
+You can listen to Digital Mobile Radio ([DMR]) transmissions across the globe on the web without having to log in or have a ham radio license.
+
+In this quest, we'll listen in on some conversations using DMR.
+
+Remember, as a ham, all of our communications except those controlling aircraft or satellites are presumed public.
+
+## Visit the [Brandmeister Network](https://brandmeister.network) {-}
+
+The Brandmeister Network is one of the largest organizations providing DMR services.
+The Brandmeister Network maintains a [hoseline site](https://hose.brandmeister.network) that shows all of the DMR traffic going through the Network.
+
+You will see something like the following:
+
+```{r, echo=FALSE, out.width="100%", fig.cap="Brandmeister DMR hoseline as of 2023-04-03 about 1745Z"}
+knitr::include_graphics("include/img/brandmeister-hoseline-2023-04-03.png")
+```
+
+This shows all of the stations connected to the Brandmeister network in the entire world.
+
+## Click on an active QSO {-}
+
+To listen in on one of these [QSO]s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.
+
+```{r, echo=FALSE, fig.align='center'}
+knitr::include_graphics("include/img/brandmeister-network-active-qso.png")
+```
+
+You can also listen in on specific talkgroups.
+A talkgroup is like a repeater, except that it repeats signals from stations connected via the internet.
+There is often traffic on talkgroup 91 (Worldwide) or talkgroup 93 (North America), so let's listen in on those.
+
+Click the PLAYER button in the upper right hand corner.
+
+This will open a small panel where you can select what talkgroups to listen to or which stations to monitor.
+
+```{r, echo=FALSE, fig.align='center', fig.cap="PLAYER panel from hose.brandmeister.network"}
+knitr::include_graphics("include/img/brandmeister-hoseline-player-panel.png")
+```

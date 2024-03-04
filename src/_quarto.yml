@@ -1,0 +1,33 @@
+project:
+  type: book
+
+book:
+  title: "New Ham Book"
+  author: "Rick Gilmore W3TM"
+  date: "2024-03-04"
+  chapters:
+    - index.qmd
+    - part: hands-on.qmd
+      chapters: 
+        - web-sdr.qmd
+        - dmr.qmd
+        - aprs.qmd
+        - satellites.qmd
+        - pota-sota.qmd
+        - id-signal.qmd
+        - find-a-ham.qmd
+        - ham-geography.qmd
+    - part: gear.qmd
+      chapters:
+        - planning.qmd
+    - part: "FCC Regulations"
+      chapters:
+        - fcc-part-97.qmd
+
+bibliography: include/bib/ham.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport

@@ -1,0 +1,38 @@
+# Find hams in your area {-}
+
+## About
+
+The FCC amateur radio license database is public.
+That's why some hams prefer to use a post office (P.O.) box as their permanent surface mailing address for their license.
+However, the fact that the database is public makes it easy to find hams in your geographic area.
+
+### Open the Amateur Radio License Map application {-}
+
+Visit <https://haminfo.tetranz.com/map>
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="https://haminfo.tetranz.com/map"}
+knitr::include_graphics("include/img/ham-radio-license-map.png")
+```
+
+### Search for hams in your current Zip code {-}
+
+I live in 16801.
+Here is a zoomed-out view of all the hams whose home addresses in the FCC database list 16801.
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="Hams in Zip code 16801 from https://haminfo.tetranz.com/map"}
+knitr::include_graphics("include/img/hams-in-16801.png")
+```
+
+If you check the "Show grid labels" checkbox you will see that the map shows the 6-character [grid square] designator.
+Some hams "collect" QSOs from different grid squares.
+Many hams operating [FT8] or [FT4] exchange grid squares, as do those who operate amateur satellites, see the [satellite quest](#quest-satellites).
+
+### Search for a specific callsign {-}
+
+If you know a ham's callsign, enter it in the Callsign box.
+
+Here is the map of licensed hams near to the mailing address for K3CR, the Penn State Amateur Radio Club's callsign.
+
+```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="Hams near K3CR from https://haminfo.tetranz.com/map"}
+knitr::include_graphics("include/img/hams-near-k3cr.png")
+```

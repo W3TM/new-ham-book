@@ -1,0 +1,39 @@
+# Videos
+
+YouTube and other social media sharing sites have created an embarrassment of riches for prospective hams in terms of video content.
+This page links to only a small fraction of the sites that one could explore.
+If you find a video that tickles *your* fancy and might appeal to others, please send it our way.
+Or, if you are GitHub savvy, just submit a pull request.
+
+## What hams do {-}
+
+```{r, echo=FALSE, fig.cap="[@Wolcott2023-uq](https://www.youtube.com/watch?v=wt5wZhC5crI)"}
+knitr::include_url("https://www.youtube.com/embed/wt5wZhC5crI")
+```
+
+## Wave behavior {-}
+
+```{r, echo=FALSE, fig.cap="[@Channel2012-ez](https://www.youtube.com/watch?v=DovunOxlY1k)"}
+knitr::include_url("https://www.youtube.com/embed/DovunOxlY1k")
+```
+
+## Electronics {-}
+
+### History of Ohms' Law
+
+```{r, fig.cap="[@Kathy_Loves_Physics_History2021-cz]"}
+knitr::include_url("https://www.youtube.com/embed/fk_BpXlfZ8U")
+```
+
+## Ham radio movie, *High Frequency* {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cWQNyc-p-xI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Getting licensed {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ee_SkP-INsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Ham Radio Crash Course Technician class [@Course_undated-jl](http://www.youtube.com/playlist?list=PL1KAjn5rGhixvvb_jMZFWmbP97-t9Kyxk)  {-}
+
+## References {-}
