@@ -1,4 +1,4 @@
-# Find hams in your area {-}
+# Quest: Find hams in your area {-}
 
 ## About
 
@@ -36,3 +36,11 @@ Here is the map of licensed hams near to the mailing address for K3CR, the Penn 
 ```{r, echo=FALSE, fig.align='center', out.width="100%", fig.cap="Hams near K3CR from https://haminfo.tetranz.com/map"}
 knitr::include_graphics("include/img/hams-near-k3cr.png")
 ```
+
+::: {.callout-note}
+
+You *must* maintain a valid address with the FCC and that address is public.
+Some hams who prefer not to have their physical address publicly available rent a post office (PO) box and use that for their address in the FCC database.
+This is perfectly acceptable.
+
+:::

@@ -11,8 +11,6 @@ In this short section, I'm going to give you a very opinionated take on *how you
 
 But before doing that, here are some general observations:
 
-- There is *no* perfect radio.
+- There is *no* perfect (fill in the blank, i.e., radio, antenna, etc).
 - Most hams who remain active in the hobby end up with more than one radio.
-
-
-
+- Yes, older used equipment seems more expensive than it seems like it should be. 

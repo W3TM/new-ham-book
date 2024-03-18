@@ -8,7 +8,7 @@ PART 97—AMATEUR RADIO SERVICE
 Authority: [47 U.S.C. 151](https://www.govinfo.gov/link/uscode/47/151)–155, 301–609, unless otherwise noted.
 Source: [54 FR 25857](https://www.federalregister.gov/citation/54-FR-25857), June 20, 1989, unless otherwise noted.
 
-::: {.infobox}
+::: {.callout-note}
  
 Editorial Note: Nomenclature changes to part 97 appear at 63 FR 54077, Oct. 8, 1998.
 
@@ -1333,7 +1333,7 @@ A written examination must be such as to prove that the examinee possesses the o
 
 [54 FR 25857, June 20, 1989, as amended at 61 FR 41019, Aug. 7, 1996; 65 FR 6550, Feb. 10, 2000; 72 FR 3082, Jan. 24, 2007]
 
-### § 97.505 Element credit.
+### § 97.505 Element credit. {-}
 
 (a) The administering VEs must give credit as specified below to an examinee holding any of the following license grants:
 
@@ -1347,7 +1347,7 @@ A written examination must be such as to prove that the examinee possesses the o
 
 [79 FR 35291, June 20, 2014]
 
-### § 97.507 Preparing an examination.
+### § 97.507 Preparing an examination. {-}
 
 (a) Each written question set administered to an examinee must be prepared by a VE holding an Amateur Extra Class operator license. A written question set may also be prepared for the following elements by a VE holding an operator license of the class indicated:
 - (1) Element 3: Advanced Class operator.
@@ -1359,7 +1359,7 @@ A written examination must be such as to prove that the examinee possesses the o
 
 [54 FR 25857, June 20, 1989, as amended at 58 FR 29126, May 19, 1993; 59 FR 54834, Nov. 2, 1994; 65 FR 6551, Feb. 10, 2000; 69 FR 24997, May 5, 2004; 79 FR 35291, June 20, 2014; 79 FR 52226, Sept. 3, 2014]
 
-### § 97.509 Administering VE requirements.
+### § 97.509 Administering VE requirements. {-}
 
 (a) Each examination for an amateur operator license must be administered by a team of at least 3 VEs at an examination session coordinated by a VEC. The number of examinees at the session may be limited.
 
@@ -1396,13 +1396,13 @@ A written examination must be such as to prove that the examinee possesses the o
 
 [59 FR 54834, Nov. 2, 1994, as amended at 61 FR 9953, Mar. 12, 1996; 62 FR 17567, Apr. 10, 1997; 63 FR 68980, Dec. 14, 1998; 65 FR 6551, Feb. 10, 2000; 71 FR 66465, Nov. 15, 2006; 79 FR 35291. June 20, 2014]
 
-### § 97.511 Examinee conduct.
+### § 97.511 Examinee conduct. {-}
 
 Each examinee must comply with the instructions given by the administering VEs.
 
 [59 FR 54835, Nov. 2, 1994]
 
-### § 97.513 VE session manager requirements.
+### § 97.513 VE session manager requirements. {-}
 
 (a) A VE session manager may be selected by the VE team for each examination session. The VE session manager must be accredited as a VE by the same VEC that coordinates the examination session. The VE session manager may serve concurrently as an administering VE.
 
@@ -1414,7 +1414,7 @@ Each examinee must comply with the instructions given by the administering VEs.
 
 §§ 97.515-97.517 [Reserved]
 
-### § 97.519 Coordinating examination sessions.
+### § 97.519 Coordinating examination sessions. {-}
 
 (a) A VEC must coordinate the efforts of VEs in preparing and administering examinations.
 
@@ -1432,7 +1432,7 @@ Each examinee must comply with the instructions given by the administering VEs.
 
 [54 FR 25857, June 20, 1989, as amended at 59 FR 54835, Nov. 2, 1994; 62 FR 17567, Apr. 10, 1997; 63 FR 68981, Dec. 14, 1998; 71 FR 66465, Nov. 15, 2006; 79 FR 35291, June 20, 2014]
 
-### § 97.521 VEC qualifications.
+### § 97.521 VEC qualifications. {-}
 
 No organization may serve as a VEC unless it has entered into a written agreement with the FCC. The VEC must abide by the terms of the agreement. In order to be eligible to be a VEC, the entity must:
  
@@ -1446,11 +1446,11 @@ No organization may serve as a VEC unless it has entered into a written agreemen
 
 [54 FR 25857, June 20, 1989, as amended at 58 FR 29127, May 19, 1993; 61 FR 9953, Mar. 12, 1996]
 
-### § 97.523 Question pools.
+### § 97.523 Question pools. {-}
 
 All VECs must cooperate in maintaining one question pool for each written examination element. Each question pool must contain at least 10 times the number of questions required for a single examination. Each question pool must be published and made available to the public prior to its use for making a question set. Each question on each VEC question pool must be prepared by a VE holding the required FCC-issued operator license. See § 97.507(a) of this part.
 
-### § 97.525 Accrediting VEs.
+### § 97.525 Accrediting VEs. {-}
 
 (a) No VEC may accredit a person as a VE if:
 - (1) The person does not meet minimum VE statutory qualifications or minimum qualifications as prescribed by this part;
@@ -1460,7 +1460,7 @@ All VECs must cooperate in maintaining one question pool for each written examin
 
 (b) Each VEC must seek a broad representation of amateur operators to be VEs. No VEC may discriminate in accrediting VEs on the basis of race, sex, religion or national origin; nor on the basis of membership (or lack thereof) in an amateur service organization; nor on the basis of the person accepting or declining to accept reimbursement.
 
-### § 97.527 Reimbursement for expenses.
+### § 97.527 Reimbursement for expenses. {-}
 
 VEs and VECs may be reimbursed by examinees for out-of-pocket expenses incurred in preparing, processing, administering, or coordinating an examination for an amateur operator license.
 
@@ -1472,7 +1472,7 @@ In ITU Region 2, the amateur service is regulated by the FCC within the territor
 
 In ITU Region 3, the amateur service is regulated by the FCC within the Pacific Insular territorial limits of American Samoa (seven islands), Baker Island, Commonwealth of Northern Mariana Islands, Guam Island, Howland Island, Jarvis Island, Kingman Reef, Palmyra Island (more than 50 islets) and Wake Island (Islets Peale, Wake and Wilkes).
 
-### Appendix 2 to Part 97—VEC Regions
+### Appendix 2 to Part 97—VEC Regions {-}
 
 1. Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont.
 2. New Jersey and New York.

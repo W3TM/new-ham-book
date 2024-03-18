@@ -1,4 +1,4 @@
-# Quest 4: Satellite tracking {- #quest-sattelites}
+# Quest: Satellite tracking {- #quest-sattelites}
 
 Hams have launched satellites that permit communication across large areas, and the International Space Station (ISS) has ham radio equipment on board.
 

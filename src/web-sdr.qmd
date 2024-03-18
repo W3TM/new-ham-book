@@ -1,4 +1,4 @@
-# Quest 1: WebSDR {- #quest-websdr}
+# Quest: WebSDR {- #quest-websdr}
 
 ## Listening to radio over the web
 

@@ -1,8 +1,8 @@
-# [DMR] {- #quest-dmr}
+# Quest: DMR {- #quest-dmr}
 
-:::{.infobox}
+::: {.callout-tip}
 
-These activities are relevant to the following license pool questions:
+These activities are relevant to the following Technician license pool questions:
 
 [T2B12](#T2B12); [T4B07](#T4B07); [T8D02](#T8D02); [T8D07](#T8D07).
 

@@ -3,7 +3,9 @@
 ## About
 
 Before you spend a dollar, I suggest that you put some time into planning the initial phases of your ham "career".
-Your interests will probably change over time, but let's start with what excites you about the hobby right now.
+Your interests will probably change over time, but it's a good idea to start with what excites you about the hobby right now.
+Here are some questions to consider.
+None of them have either/or answers.
 
 ## Questions
 
@@ -15,7 +17,19 @@ From home, in your car, or from a portable location like a park or a mountain su
 
 Voice (SSB or FM), digital modes, or CW?
 
-- *What type(s) of activities* interest you using these modes?
+- *What type(s) of activities* interest you in using these modes?
 
 Special event support, contesting, SOTA/POTA, rag-chewing, nets.
+
+- *Who* do you want to communicate with?
+
+People you don't know (yet) or very specific individuals.
+
+And last, but certainly not the least important:
+
+- *How much* do you have to spend?
+
+In my opinion, the first question, *where* you plan to operate, has the biggest influence on your choices.
+So, what follows are three separate chapters relating to setting up a fixed station at-home, operating mobile (from a vehicle), and field or portable operations.
+
 
