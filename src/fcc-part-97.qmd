@@ -1,4 +1,4 @@
-# FCC Part 97 {#part-97}
+# FCC Part 97 {- #part-97}
 
 The following was downloaded as a [PDF](include/pdf/47 CFR Part 97 (up to date as of 3-30-2023).pdf) from <https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97> on 2023-04-01.
 
@@ -895,18 +895,19 @@ The following transmitting frequency bands are available to an amateur station l
 
 **Wavelength band ITU Region 1 ITU Region 2 ITU Region 3 Sharing requirements see § [97.303](#97.303) (paragraph)**
 
-| LF | kHz | kHz | kHz | paragraph | 
+| LF | kHz | kHz | kHz | paragraph |
+|----|-----|------|----|-----------|
 | 2200 m | 135.7–137.8 | 135.7–137.8 | 135.7–137.8 | (a), (g). |
 
 **Wavelength band ITU region 1 ITU region 2 ITU region 3 Sharing requirements see § [97.303](#97.303) (paragraph)**
 
 | MF | kHz | kHz | kHz | paragraph |
-|:---|:----|:----:-----|:----------|
+|----|-----|------|----|-----------|
 | 160 m | 1810–1850 | 1800–2000 | 1800–2000 | (a) |
 | 630 m | 472–479 | 472–479 | 472–479 | (g). |
 
 | HF | MHz | MHz | MHz | paragraph |
-|:----|:-----|:-----|:-----|:-----|
+|----|-----|------|----|-----------|
 | 80 m | 3.525–3.600 | 3.525–3.600 | 3.525–3.600 | (a) |
 | 75 m | 3.800–4.000 | 3.800–3.900 |      | (a) |
 | 60 m | See § 97.303(h) |     |      | (h) |

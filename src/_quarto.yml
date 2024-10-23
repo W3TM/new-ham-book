@@ -5,7 +5,7 @@ project:
 book:
   title: "New Ham Book"
   author: "Rick Gilmore W3TM"
-  date: "2024-03-04"
+  date: "2024-10-22"
   chapters:
     - index.qmd
     - part: hands-on.qmd
@@ -30,5 +30,4 @@ bibliography: include/bib/ham.bib
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreport
+

@@ -1,13 +1,13 @@
-# Planning
+# Planning {-}
 
-## About
+## About {-}
 
 Before you spend a dollar, I suggest that you put some time into planning the initial phases of your ham "career".
 Your interests will probably change over time, but it's a good idea to start with what excites you about the hobby right now.
 Here are some questions to consider.
 None of them have either/or answers.
 
-## Questions
+## Questions {-}
 
 - *Where* do you plan to operate?
 
