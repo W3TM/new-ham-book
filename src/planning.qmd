@@ -32,4 +32,17 @@ And last, but certainly not the least important:
 In my opinion, the first question, *where* you plan to operate, has the biggest influence on your choices.
 So, what follows are three separate chapters relating to setting up a fixed station at-home, operating mobile (from a vehicle), and field or portable operations.
 
+## SPARC-E
+
+### Support
+
+### Power
+
+### Antenna
+
+### Radio
+
+### Connectors
+
+### Extras
 

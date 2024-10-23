@@ -39,6 +39,10 @@ If you pick a WebSDR near your location, then you'll need to consider the rules 
 
 If you pick a WebSDR somewhere else, you'll have to think like a ham in one of those locations: What bands are open to hams and to what parts of the world from that location?
 
+Here are some hints:
+
+If it's daytime, try 40m (7.0-7.3 MHz) for regional communications and 20m (14.0-14.35 MHz) for longer distance communications.
+
 ## Tune to the POTA station frequency {-}
 
 If the station is still active on the frequency and propagation to the WebSDR location is good, you should see a signal in the waterfall.

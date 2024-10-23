@@ -1,19 +1,35 @@
-# Home station
+# Home station {-}
 
-## About
+::: {.callout-warning}
+This page is under construction.
+
+I don't recommend reading it.
+:::
+
+## About {-}
 
 Many hams set up a station at home, and this is their primary or sole radio station.
 This page discusses some of the considerations related to setting up and enjoying a home station.
 
-## Considerations
+## Considerations {-}
 
 As people experienced in real estate like to say, "location, location, location!"
 In ham radio terms that means *where* in your home you have available to set up your shack is a key consideration.
 Location matters for two reasons:
 
 1. If you want to set up a station with HF capability, you'll want and need to put your antenna somewhere else--not in the room with your radio gear.
-That somewhere else will often be outside although some hams have success putting   antennas in an attic.
+That somewhere else will often be outside although some hams have success putting antennas in an attic.
 If your antenna or antennas are outside, you'll need a way to send RF signals to them.
 
-2. All things being equal, you want your antenna feedlines to be as short as possible. Your feedlines dissipate RF power, although usually not very much. Still, you want to pick a location in your home so that your equipment is as close to your antenna as possible so that your feedlines can be as short as possible.
+2. All things being equal, you want your antenna feedlines to be as short as possible. 
+Your feedlines dissipate RF power, although usually not very much if you use decent quality ones.
+Still, you want to pick a location in your home so that your equipment is as close to your antenna as possible so that your feedlines can be as short as possible.
 
+3. You'll need access to electrical power (120 V).
+
+::: {.callout-tip}
+If your situation requires long feedlines, don't worry.
+You can still have a grand old time on the radio.
+
+Pick a location that's most convenient, and build your station there.
+:::

@@ -1,4 +1,4 @@
-# Portable station {-}
+# Mobile station {-}
 
 ::: {.callout-warning}
 This page is under construction.
@@ -8,8 +8,11 @@ I don't recommend reading it.
 
 ## About {-}
 
+This page provides some information about setting up a station in your vehicle.
+
 ## Considerations {-}
 
 - Power
 - Antenna
+- Band(s)
 

@@ -21,6 +21,9 @@ book:
     - part: gear.qmd
       chapters:
         - planning.qmd
+        - home-station.qmd
+        - portable-station.qmd
+        - mobile-station.qmd
     - part: "FCC Regulations"
       chapters:
         - fcc-part-97.qmd

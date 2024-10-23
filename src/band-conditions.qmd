@@ -1,0 +1,25 @@
+# Quest: Band Conditions {- #quest-band-conditions}
+
+::: {.callout-warning}
+
+This page is a work-in-progress.
+Many components are incomplete.
+I don't recommend reading it.
+
+:::
+
+## About
+
+This chapter is about determining whether the HF and VHF *frequency* bands support long-distance (DX) communication.
+
+Why should you care about that?
+If you want to hear, and eventually communicate with stations all over the world, you will want to learn about when band conditions are right to support your dreams.
+
+## Propagation
+
+## Space Weather
+
+## Reverse Beacon Network
+
+## Weak Signal Propagation Reporter
+

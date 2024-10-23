@@ -7,13 +7,13 @@ Yes, that means that your internet-connected phone, tablet, or computer can be y
 
 In this quest, we'll check-in on the bands and listen to some [HF] [QSO]s.
 
-::: {.infobox}
+::: {.callout-info}
 
 Here are some other web-based SDRs you might try:
   
-  http://kiwisdr.com/public/
+  <http://kiwisdr.com/public/>
   
-  http://www.maghull-scene.co.uk/radio.htm
+  <http://www.maghull-scene.co.uk/radio.htm>
 
 :::
   
@@ -118,7 +118,7 @@ To see another example of what LSB and upper sideband ([USB]) signals look like,
 
 Now that you've gotten familiar with the K3FEF WebSDR, you might be curious to know what else there is to listen to, and equally important, *when*.
 I say when because the high frequency (HF) bands change their propagation characteristics--how far and how well they convey radio signals--based on the time of day, season of the year, and phase of the 11-year sunspot cycle, among other characteristics.
-We'll do a deeper dive on these topics in the [Band Conditions]() quest.
+We'll do a deeper dive on these topics in the [Band Conditions](@quest-band-conditions) quest.
 For now, here are some general rules of thumb about *where* to listen and *when*:
 
 75m/80m: These bands provide long distance (DX) communication at night, especially in the winter months, and regional communication in the early morning hours.
@@ -144,7 +144,7 @@ You may also want to try the [NetFinder](https://netfinder.radio) site.
 
 It would be good to add some information about some SWL stations that are easy to hear.
 
-Also, there are some nets that are good examples, e.g., the M-Su Rooster Net on 3.990 MHz and the YSL System Nets, and some frequencies that are *not* good examples, e.g., 7.200 MHz and 14.313 MHz.
+Also, there are some nets that are good examples, e.g., the M-Su Rooster Net on 3.990 MHz (daily 6:00am Eastern time) and the YSL System Nets, and some frequencies that are *not* good examples, e.g., 7.200 MHz and 14.313 MHz.
 
 :::
 
