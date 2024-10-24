@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lingo – New Ham Book</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./technician.html" rel="next">
+<link href="./fcc-part-97.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lingo.html">Resources</a></li><li class="breadcrumb-item"><a href="./lingo.html">Lingo</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">New Ham Book</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./hands-on.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hands-on hamming</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./web-sdr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: WebSDR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dmr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: DMR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aprs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: APRS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./satellites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: Satellite tracking</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pota-sota.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: POTA/SOTA hunting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./id-signal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: Identify the signal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./find-a-ham.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: Find hams in your area</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ham-geography.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: Ham geography</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./band-conditions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: Band Conditions</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./gear.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gear</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./planning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Planning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./home-station.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home station</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./portable-station.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Portable station</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mobile-station.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mobile station</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">FCC Regulations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fcc-part-97.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FCC Part 97</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lingo.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Lingo</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Exams</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./technician.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Technician Exam</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#phonetic-alphabet" id="toc-phonetic-alphabet" class="nav-link active" data-scroll-target="#phonetic-alphabet">Phonetic alphabet</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary">Glossary</a>
+  <ul class="collapse">
+  <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">A</a></li>
+  <li><a href="#ac" id="toc-ac" class="nav-link" data-scroll-target="#ac">AC</a></li>
+  <li><a href="#af" id="toc-af" class="nav-link" data-scroll-target="#af">AF</a></li>
+  <li><a href="#afsk" id="toc-afsk" class="nav-link" data-scroll-target="#afsk">AFSK</a></li>
+  <li><a href="#agc" id="toc-agc" class="nav-link" data-scroll-target="#agc">AGC</a></li>
+  <li><a href="#am" id="toc-am" class="nav-link" data-scroll-target="#am">AM</a></li>
+  <li><a href="#amateur-extra" id="toc-amateur-extra" class="nav-link" data-scroll-target="#amateur-extra">Amateur Extra</a></li>
+  <li><a href="#amateur-radio-service" id="toc-amateur-radio-service" class="nav-link" data-scroll-target="#amateur-radio-service">Amateur Radio Service</a></li>
+  <li><a href="#aprs" id="toc-aprs" class="nav-link" data-scroll-target="#aprs">APRS</a></li>
+  <li><a href="#arrl" id="toc-arrl" class="nav-link" data-scroll-target="#arrl">ARRL</a></li>
+  <li><a href="#arq" id="toc-arq" class="nav-link" data-scroll-target="#arq">ARQ</a></li>
+  <li><a href="#csce" id="toc-csce" class="nav-link" data-scroll-target="#csce">[CSCE]</a></li>
+  <li><a href="#cm" id="toc-cm" class="nav-link" data-scroll-target="#cm">cm</a></li>
+  <li><a href="#cq" id="toc-cq" class="nav-link" data-scroll-target="#cq">CQ</a></li>
+  <li><a href="#cw" id="toc-cw" class="nav-link" data-scroll-target="#cw">CW</a></li>
+  <li><a href="#ctcss" id="toc-ctcss" class="nav-link" data-scroll-target="#ctcss">CTCSS</a></li>
+  <li><a href="#db" id="toc-db" class="nav-link" data-scroll-target="#db">dB</a></li>
+  <li><a href="#dc" id="toc-dc" class="nav-link" data-scroll-target="#dc">DC</a></li>
+  <li><a href="#dmr" id="toc-dmr" class="nav-link" data-scroll-target="#dmr">DMR</a></li>
+  <li><a href="#dtmf" id="toc-dtmf" class="nav-link" data-scroll-target="#dtmf">DTMF</a></li>
+  <li><a href="#dx" id="toc-dx" class="nav-link" data-scroll-target="#dx">DX</a></li>
+  <li><a href="#e" id="toc-e" class="nav-link" data-scroll-target="#e">E</a></li>
+  <li><a href="#extra" id="toc-extra" class="nav-link" data-scroll-target="#extra">Extra</a></li>
+  <li><a href="#fcc" id="toc-fcc" class="nav-link" data-scroll-target="#fcc">FCC</a></li>
+  <li><a href="#fema" id="toc-fema" class="nav-link" data-scroll-target="#fema">FEMA</a></li>
+  <li><a href="#fet" id="toc-fet" class="nav-link" data-scroll-target="#fet">FET</a></li>
+  <li><a href="#fm" id="toc-fm" class="nav-link" data-scroll-target="#fm">FM</a></li>
+  <li><a href="#ft4" id="toc-ft4" class="nav-link" data-scroll-target="#ft4">FT4</a></li>
+  <li><a href="#ft8" id="toc-ft8" class="nav-link" data-scroll-target="#ft8">FT8</a></li>
+  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
+  <li><a href="#ghz" id="toc-ghz" class="nav-link" data-scroll-target="#ghz">GHz</a></li>
+  <li><a href="#grid-square" id="toc-grid-square" class="nav-link" data-scroll-target="#grid-square">Grid square</a></li>
+  <li><a href="#hf" id="toc-hf" class="nav-link" data-scroll-target="#hf">HF</a></li>
+  <li><a href="#i" id="toc-i" class="nav-link" data-scroll-target="#i">I</a></li>
+  <li><a href="#ic" id="toc-ic" class="nav-link" data-scroll-target="#ic">IC</a></li>
+  <li><a href="#ieee" id="toc-ieee" class="nav-link" data-scroll-target="#ieee">IEEE</a></li>
+  <li><a href="#irlp" id="toc-irlp" class="nav-link" data-scroll-target="#irlp">IRLP</a></li>
+  <li><a href="#iss" id="toc-iss" class="nav-link" data-scroll-target="#iss">ISS</a></li>
+  <li><a href="#itu" id="toc-itu" class="nav-link" data-scroll-target="#itu">ITU</a></li>
+  <li><a href="#khz" id="toc-khz" class="nav-link" data-scroll-target="#khz">kHz</a></li>
+  <li><a href="#led" id="toc-led" class="nav-link" data-scroll-target="#led">LED</a></li>
+  <li><a href="#leo" id="toc-leo" class="nav-link" data-scroll-target="#leo">LEO</a></li>
+  <li><a href="#lifepo_4" id="toc-lifepo_4" class="nav-link" data-scroll-target="#lifepo_4"><span class="math inline">\(LiFePO_4\)</span></a></li>
+  <li><a href="#lsb" id="toc-lsb" class="nav-link" data-scroll-target="#lsb">LSB</a></li>
+  <li><a href="#m" id="toc-m" class="nav-link" data-scroll-target="#m">m</a></li>
+  <li><a href="#ma" id="toc-ma" class="nav-link" data-scroll-target="#ma">mA</a></li>
+  <li><a href="#mf" id="toc-mf" class="nav-link" data-scroll-target="#mf">mF</a></li>
+  <li><a href="#mhz" id="toc-mhz" class="nav-link" data-scroll-target="#mhz">MHz</a></li>
+  <li><a href="#ncs" id="toc-ncs" class="nav-link" data-scroll-target="#ncs">NCS</a></li>
+  <li><a href="#p" id="toc-p" class="nav-link" data-scroll-target="#p">P</a></li>
+  <li><a href="#phone" id="toc-phone" class="nav-link" data-scroll-target="#phone">Phone</a></li>
+  <li><a href="#pl-259" id="toc-pl-259" class="nav-link" data-scroll-target="#pl-259">PL-259</a></li>
+  <li><a href="#pm" id="toc-pm" class="nav-link" data-scroll-target="#pm">PM</a></li>
+  <li><a href="#pota" id="toc-pota" class="nav-link" data-scroll-target="#pota">POTA</a></li>
+  <li><a href="#psk" id="toc-psk" class="nav-link" data-scroll-target="#psk">PSK</a></li>
+  <li><a href="#ptt" id="toc-ptt" class="nav-link" data-scroll-target="#ptt">PTT</a></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#races" id="toc-races" class="nav-link" data-scroll-target="#races">RACES</a></li>
+  <li><a href="#rf" id="toc-rf" class="nav-link" data-scroll-target="#rf">RF</a></li>
+  <li><a href="#rg-58" id="toc-rg-58" class="nav-link" data-scroll-target="#rg-58">RG-58</a></li>
+  <li><a href="#rg-213" id="toc-rg-213" class="nav-link" data-scroll-target="#rg-213">RG-213</a></li>
+  <li><a href="#rit" id="toc-rit" class="nav-link" data-scroll-target="#rit">RIT</a></li>
+  <li><a href="#sdr" id="toc-sdr" class="nav-link" data-scroll-target="#sdr">SDR</a></li>
+  <li><a href="#so-239" id="toc-so-239" class="nav-link" data-scroll-target="#so-239">SO-239</a></li>
+  <li><a href="#spdt" id="toc-spdt" class="nav-link" data-scroll-target="#spdt">SPDT</a></li>
+  <li><a href="#ssb" id="toc-ssb" class="nav-link" data-scroll-target="#ssb">SSB</a></li>
+  <li><a href="#sota" id="toc-sota" class="nav-link" data-scroll-target="#sota">SOTA</a></li>
+  <li><a href="#swl" id="toc-swl" class="nav-link" data-scroll-target="#swl">SWL</a></li>
+  <li><a href="#swr" id="toc-swr" class="nav-link" data-scroll-target="#swr">SWR</a></li>
+  <li><a href="#technician" id="toc-technician" class="nav-link" data-scroll-target="#technician">Technician</a></li>
+  <li><a href="#uhf" id="toc-uhf" class="nav-link" data-scroll-target="#uhf">UHF</a></li>
+  <li><a href="#uls" id="toc-uls" class="nav-link" data-scroll-target="#uls">ULS</a></li>
+  <li><a href="#usb" id="toc-usb" class="nav-link" data-scroll-target="#usb">USB</a></li>
+  <li><a href="#utc" id="toc-utc" class="nav-link" data-scroll-target="#utc">UTC</a></li>
+  <li><a href="#v" id="toc-v" class="nav-link" data-scroll-target="#v">V</a></li>
+  <li><a href="#ve" id="toc-ve" class="nav-link" data-scroll-target="#ve">VE</a></li>
+  <li><a href="#vfo" id="toc-vfo" class="nav-link" data-scroll-target="#vfo">VFO</a></li>
+  <li><a href="#vhf" id="toc-vhf" class="nav-link" data-scroll-target="#vhf">VHF</a></li>
+  <li><a href="#voip" id="toc-voip" class="nav-link" data-scroll-target="#voip">VOiP</a></li>
+  <li><a href="#vox" id="toc-vox" class="nav-link" data-scroll-target="#vox">VOX</a></li>
+  <li><a href="#w" id="toc-w" class="nav-link" data-scroll-target="#w">W</a></li>
+  <li><a href="#wspr" id="toc-wspr" class="nav-link" data-scroll-target="#wspr">WSPR</a></li>
+  </ul></li>
+  <li><a href="#q-codes" id="toc-q-codes" class="nav-link" data-scroll-target="#q-codes">Q-codes</a>
+  <ul class="collapse">
+  <li><a href="#qrm" id="toc-qrm" class="nav-link" data-scroll-target="#qrm">QRM</a></li>
+  <li><a href="#qrn" id="toc-qrn" class="nav-link" data-scroll-target="#qrn">QRN</a></li>
+  <li><a href="#qrp" id="toc-qrp" class="nav-link" data-scroll-target="#qrp">QRP</a></li>
+  <li><a href="#qrz" id="toc-qrz" class="nav-link" data-scroll-target="#qrz">QRZ</a></li>
+  <li><a href="#qsl" id="toc-qsl" class="nav-link" data-scroll-target="#qsl">QSL</a></li>
+  <li><a href="#qso" id="toc-qso" class="nav-link" data-scroll-target="#qso">QSO</a></li>
+  <li><a href="#qst" id="toc-qst" class="nav-link" data-scroll-target="#qst">QST</a></li>
+  <li><a href="#qth" id="toc-qth" class="nav-link" data-scroll-target="#qth">QTH</a></li>
+  </ul></li>
+  <li><a href="#morse-code" id="toc-morse-code" class="nav-link" data-scroll-target="#morse-code">Morse code</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lingo.html">Resources</a></li><li class="breadcrumb-item"><a href="./lingo.html">Lingo</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Lingo</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Ham radio is no different than any other human activity: There’s a bunch of specialized lingo. Actually, ham radio may have more lingo, jargon, and acronyms than most hobbies. But fear not. Learning to talk the talk is part of what makes joining a new community fun. And with ham radio, communicating (in one form or another) is the main point. As an international hobby with a 100+ year history, learning how to ‘speak ham’ is one of the best ways to join our community.</p>
+<p>By the way, it is ham radio not HAM radio. Ham is not an abbreviation for something. Also, some new folks might say, “I’m interested in ham; or I’m thinking about getting into HAM.” That sounds like they are interested in an edible pork product, not our glorious hobby. Most hams are forgiving people who want newcomers to join our ranks. But saying certain things is like writing a scarlet H in the middle of your forehead.</p>
+<section id="phonetic-alphabet" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="phonetic-alphabet">Phonetic alphabet</h2>
+<p>Amateurs across the globe have agreed on a standard phonetic alphabet–a way of spelling out callsigns and words that makes them more easily understood when propagation might not be ideal.</p>
+<p>The phonetic alphabet is often used on HF, but rarely on VHF or UHF FM. That’s because signals on VHF or UHF FM are often heard through repeaters and are usually <em>very</em> readable. So, if you’re transmitting on VHF or UHF through a repeater, you don’t need to use the phonetic alphabet.</p>
+<p>Some hams use different phonetic equivalents from the ones below, like “Wacko Three Tiny Microphone” for W3TM. As a rule of thumb, it’s better practice and the more common custom to use the standard phonetic alphabet. Sometimes under difficult operating conditions, like a busy contest, you might say “Whiskey Three TEXAS MASSACHUSETTS” or something unusual rather than “Whiskey Three Tango Mike”–<em>if</em> the other operator can’t quite copy the last part of your callsign after you’ve tried the standard phonetics several times.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Letter</th>
+<th>Phonetic equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>Alpha</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>Bravo</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>Charlie</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>Delta</td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td>Echo</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>Foxtrot</td>
+</tr>
+<tr class="odd">
+<td>G</td>
+<td>Golf</td>
+</tr>
+<tr class="even">
+<td>H</td>
+<td>Hotel</td>
+</tr>
+<tr class="odd">
+<td>I</td>
+<td>India</td>
+</tr>
+<tr class="even">
+<td>J</td>
+<td>Juliet</td>
+</tr>
+<tr class="odd">
+<td>K</td>
+<td>Kilo</td>
+</tr>
+<tr class="even">
+<td>L</td>
+<td>Lima</td>
+</tr>
+<tr class="odd">
+<td>M</td>
+<td>Mike</td>
+</tr>
+<tr class="even">
+<td>N</td>
+<td>November</td>
+</tr>
+<tr class="odd">
+<td>O</td>
+<td>Oscar</td>
+</tr>
+<tr class="even">
+<td>P</td>
+<td>Papa (accent on 2nd syllable)</td>
+</tr>
+<tr class="odd">
+<td>Q</td>
+<td>Quebec</td>
+</tr>
+<tr class="even">
+<td>R</td>
+<td>Romeo</td>
+</tr>
+<tr class="odd">
+<td>S</td>
+<td>Sierra</td>
+</tr>
+<tr class="even">
+<td>T</td>
+<td>Tango</td>
+</tr>
+<tr class="odd">
+<td>U</td>
+<td>Uniform</td>
+</tr>
+<tr class="even">
+<td>V</td>
+<td>Victor</td>
+</tr>
+<tr class="odd">
+<td>W</td>
+<td>Whiskey</td>
+</tr>
+<tr class="even">
+<td>X</td>
+<td>X-ray</td>
+</tr>
+<tr class="odd">
+<td>Y</td>
+<td>Yankee</td>
+</tr>
+<tr class="even">
+<td>Z</td>
+<td>Zulu</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="glossary" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="glossary">Glossary</h2>
+<section id="a" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="a">A</h3>
+<p>Amperes. A unit of electric current.</p>
+</section>
+<section id="ac" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ac">AC</h3>
+<p>Alternating current.</p>
+</section>
+<section id="af" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="af">AF</h3>
+<p>Audio frequency.</p>
+</section>
+<section id="afsk" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="afsk">AFSK</h3>
+<p>Audio frequency shift keying.</p>
+</section>
+<section id="agc" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="agc">AGC</h3>
+<p>Automatic gain control.</p>
+</section>
+<section id="am" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="am">AM</h3>
+<p>Amplitude modulation.</p>
+</section>
+<section id="amateur-extra" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="amateur-extra">Amateur Extra</h3>
+<p>The highest amateur radio service license class in the U.S.</p>
+</section>
+<section id="amateur-radio-service" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="amateur-radio-service">Amateur Radio Service</h3>
+</section>
+<section id="aprs" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="aprs">APRS</h3>
+<p>Automatic Packet Reporting System.</p>
+</section>
+<section id="arrl" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="arrl">ARRL</h3>
+<p>American Radio Relay League. The non-profit membership organization for U.S.-licensed hams.</p>
+</section>
+<section id="arq" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="arq">ARQ</h3>
+<p><a href="https://en.wikipedia.org/wiki/Automatic_repeat_request">Automatic repeat request</a>.</p>
+</section>
+<section id="csce" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="csce">[CSCE]</h3>
+<p>Certificate of Successful Completion of (an amateur radio licensing) Examination.</p>
+</section>
+<section id="cm" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="cm">cm</h3>
+<p>Centimeters, a unit of length.</p>
+</section>
+<section id="cq" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="cq">CQ</h3>
+<p>An operating sign meant to communicate that the sender is calling on any amateur station to respond.</p>
+</section>
+<section id="cw" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="cw">CW</h3>
+<p>Continuous wave. A type of <a href="#rf">RF</a> modulation that involves turning a continuous carrier frequency on and off. CW is also another name for sending <a href="#morse-code">Morse code</a>.</p>
+</section>
+<section id="ctcss" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ctcss">CTCSS</h3>
+<p>Continuous Tone-Coded Squelch System.</p>
+</section>
+<section id="db" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="db">dB</h3>
+<p>Decibel.</p>
+</section>
+<section id="dc" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="dc">DC</h3>
+<p>Direct current.</p>
+</section>
+<section id="dmr" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="dmr">DMR</h3>
+<p>Digital mobile radio.</p>
+</section>
+<section id="dtmf" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="dtmf">DTMF</h3>
+<p>Dual tone multi-frequency. Tones sent by VHF or UHF transceivers to control repeaters.</p>
+</section>
+<section id="dx" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="dx">DX</h3>
+<p>Long distance communications. A ham calling “CQ DX” is saying that she prefers to talk to distant stations, usually in another country.</p>
+</section>
+<section id="e" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="e">E</h3>
+<p>Electromotive force or Voltage. <span class="math inline">\(E=IR\)</span></p>
+</section>
+<section id="extra" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="extra">Extra</h3>
+<p><a href="#amateur-extra">Amateur Extra</a> class license.</p>
+</section>
+<section id="fcc" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="fcc">FCC</h3>
+<p>Federal Commmunications Commission. The U.S. Government agency charged with regulating radio communications. The FCC grants amateur radio operators licenses.</p>
+</section>
+<section id="fema" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="fema">FEMA</h3>
+<p>Federal Emergency Management Agency.</p>
+</section>
+<section id="fet" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="fet">FET</h3>
+<p>Field Effect Transistor.</p>
+</section>
+<section id="fm" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="fm">FM</h3>
+<p>Frequency modulation.</p>
+</section>
+<section id="ft4" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ft4">FT4</h3>
+<p>A digital mode of communication that is part of the WSJT-X software and has a 7.5 s cycle, half that of FT8.</p>
+</section>
+<section id="ft8" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ft8">FT8</h3>
+<p>A digital mode of communication that is part of the WSJT-X software and has a 15 s cycle, twice that of FT4.</p>
+</section>
+<section id="general" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="general">General</h3>
+<p>The intermediate <a href="#amateur-radio-service">amateur radio service</a> license class.</p>
+</section>
+<section id="ghz" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ghz">GHz</h3>
+<p>Gigahertz.</p>
+</section>
+<section id="grid-square" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="grid-square">Grid square</h3>
+<p>A geographical region using the Maidenhead Grid Square system.</p>
+</section>
+<section id="hf" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="hf">HF</h3>
+<p>High frequency. A set of frequencies between 3 <a href="#mhz">MHz</a> and 30 [MHz.] The 80/75<a href="#m">m</a>, 60<a href="#m">m</a>, 40<a href="#m">m</a>, 30<a href="#m">m</a>, 20<a href="#m">m</a>, 15<a href="#m">m</a>, 17<a href="#m">m</a>, 15<a href="#m">m</a>, 12<a href="#m">m</a>, and 10<a href="#m">m</a> ham bands are <a href="#hf">HF</a> bands. <a href="#hf">HF</a> signals can propagate for long distances under common atmospheric conditions.</p>
+</section>
+<section id="i" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="i">I</h3>
+<p>Current. <span class="math inline">\(I=E/R\)</span>, <span class="math inline">\(I=P/E\)</span></p>
+</section>
+<section id="ic" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ic">IC</h3>
+<p>Integrated circuit.</p>
+</section>
+<section id="ieee" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ieee">IEEE</h3>
+<p>Institute of Electrical and Electronics Engineers.</p>
+</section>
+<section id="irlp" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="irlp">IRLP</h3>
+<p>Internet Radio Linking Project.</p>
+</section>
+<section id="iss" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="iss">ISS</h3>
+<p>International Space Station.</p>
+</section>
+<section id="itu" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="itu">ITU</h3>
+<p>International Telecommunications Union. The ITU has divided the world into three geographic regions (<a href="https://en.wikipedia.org/wiki/ITU_Region">ITU Regions</a>). Region 2 comprises the Americas.</p>
+<p>
+<a href="https://commons.wikimedia.org/wiki/File:International_Telecommunication_Union_regions_with_dividing_lines.svg#/media/File:International_Telecommunication_Union_regions_with_dividing_lines.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/International_Telecommunication_Union_regions_with_dividing_lines.svg/1200px-International_Telecommunication_Union_regions_with_dividing_lines.svg.png" alt="International Telecommunication Union regions with dividing lines.svg"></a><br>By &lt;a href=“https://de.wikipedia.org/wiki/User:Chumwa” class=“extiw” title=“de:User:Chumwa”&gt;Maximilian Dörrbecker&lt;/a&gt; (&lt;a href=“https://de.wikipedia.org/wiki/User:Chumwa” class=“extiw” title=“de:User:Chumwa”&gt;Chumwa&lt;/a&gt;) - &lt;span class=“int-own-work” lang=“en”&gt;Own work&lt;/span&gt;, using &lt;a href=“//commons.wikimedia.org/wiki/File:International_Telecommunication_Union_region.svg” title=“File:International Telecommunication Union region.svg”&gt;this file&lt;/a&gt; by &lt;a href=“//commons.wikimedia.org/wiki/User:Denelson83” title=“User:Denelson83”&gt;Denelson83&lt;/a&gt;, <a href="https://creativecommons.org/licenses/by-sa/2.5" title="Creative Commons Attribution-Share Alike 2.5">CC BY-SA 2.5</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=47850205">Link</a>
+</p>
+</section>
+<section id="khz" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="khz">kHz</h3>
+<p>Kilohertz. A unit of frequency. 1 kHz is 1 thousand cycles/sec.&nbsp;The ‘H’ is capitalized because it is named after Henrich Hertz.</p>
+</section>
+<section id="led" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="led">LED</h3>
+<p>Light emitting diode.</p>
+</section>
+<section id="leo" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="leo">LEO</h3>
+<p>Low Earth Orbit. Satellites with amateur radio transceivers are often placed in this orbit.</p>
+</section>
+<section id="lifepo_4" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="lifepo_4"><span class="math inline">\(LiFePO_4\)</span></h3>
+<p>Lithium Iron Phosphate. A type of rechargeable battery. Sometimes this is pronounced “life-po”.</p>
+</section>
+<section id="lsb" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="lsb">LSB</h3>
+<p>Lower sideband.</p>
+</section>
+<section id="m" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="m">m</h3>
+<p>Meter or meters.</p>
+</section>
+<section id="ma" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ma">mA</h3>
+<p>Milliamperes. A unit of current. 1/1,000 of an Ampere (<a href="#a">A</a>).</p>
+</section>
+<section id="mf" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="mf">mF</h3>
+<p>Microfarad. A unit of capacitance. 1/1,000,000 of a Farad. <span class="math inline">\(\mu F\)</span> is another abbreviation for microfarad using the Greek letter mu (<span class="math inline">\(\mu\)</span>).</p>
+</section>
+<section id="mhz" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="mhz">MHz</h3>
+<p>Megahertz. A unit of frequency. 1 MHz is 1 million cycles/sec or 1 million Hertz (Hz). The ‘H’ is capitalized because it is named after Henrich Hertz.</p>
+</section>
+<section id="ncs" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ncs">NCS</h3>
+<p>Net control station.</p>
+</section>
+<section id="p" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="p">P</h3>
+<p>Power. <span class="math inline">\(P=IE=I^2R\)</span>. Power is usually measured in watts (<a href="#w">w</a>) or some multiple of watts.</p>
+</section>
+<section id="phone" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="phone">Phone</h3>
+<p>Voice transmissions.</p>
+</section>
+<section id="pl-259" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="pl-259">PL-259</h3>
+<p>A male-type of <a href="#uhf">UHF</a> coax connector. <a href="#so-239">SO-239</a> is the female type.</p>
+</section>
+<section id="pm" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="pm">PM</h3>
+<p>Phase modulation. A type of RF modulation that produces a signal similar to frequency modulation (<a href="#fm">FM</a>).</p>
+</section>
+<section id="pota" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="pota">POTA</h3>
+<p>Parks on the Air. An organized activity where hams set up and operate portable stations from parks and related entities all over the world. See <a href="https://pota.app" class="uri">https://pota.app</a> for more information and the <a href="pota-sota.html">POTA/SOTA quest</a> for a hands-on activity.</p>
+</section>
+<section id="psk" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="psk">PSK</h3>
+<p>Phase shift keying. A type of signal modulation. PSK is used in a number of digital communication modes.</p>
+</section>
+<section id="ptt" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ptt">PTT</h3>
+<p>Push to talk. A button and associated circuit that allows a transmitter or transceiver to transmit when pressed.</p>
+</section>
+<section id="r" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="r">R</h3>
+<p>Resistance. <span class="math inline">\(R=E/R\)</span>. Resistance in measured in [Ohms].</p>
+</section>
+<section id="races" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="races">RACES</h3>
+<p>Radio Amateur Civil Emergency Service.</p>
+</section>
+<section id="rf" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="rf">RF</h3>
+<p>Radio frequency.</p>
+</section>
+<section id="rg-58" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="rg-58">RG-58</h3>
+<p>A common type of coax used with low power at HF and VHF frequencies.</p>
+</section>
+<section id="rg-213" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="rg-213">RG-213</h3>
+<p>A common type of coax used with low to high power at HF, VHF, and UHF frequencies. RG-213 has lower loss than RG-58.</p>
+</section>
+<section id="rit" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="rit">RIT</h3>
+<p>Receiver incremental tuning.</p>
+</section>
+<section id="sdr" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="sdr">SDR</h3>
+<p>Software defined radio.</p>
+</section>
+<section id="so-239" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="so-239">SO-239</h3>
+<p>A female type of <a href="#uhf">UHF</a> coax connector. <a href="#pl-259">PL-259</a> is the male type.</p>
+</section>
+<section id="spdt" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="spdt">SPDT</h3>
+<p>Single pole double throw. A type of switch.</p>
+</section>
+<section id="ssb" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ssb">SSB</h3>
+<p>Single Sideband. A mode of RF modulation where one half of the two symmetric halves of an amplitude-modulated (AM) signal is sent. Upper (<a href="#usb">USB</a>) or lower (<a href="#lsb">LSB</a>) sideband are the most common modes for sending voice (phone).</p>
+</section>
+<section id="sota" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="sota">SOTA</h3>
+<p>Summits on the Air. An organized activity where hams operate from mountain summits all over the world. See <a href="https://www.sota.org.uk" class="uri">https://www.sota.org.uk</a> for more information about the program and the <a href="pota-sota.html">POTA/SOTA quest</a> for a related hands-on activity.</p>
+</section>
+<section id="swl" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="swl">SWL</h3>
+<p>Shortwave listener.</p>
+</section>
+<section id="swr" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="swr">SWR</h3>
+<p>Standing Wave Ratio. The ratio of forward power to reflected power. High SWR (&gt; 3:1 or more) means that the impedance of your antenna is a poor match to the impedance of your transmitter. This doesn’t matter very much for receiving signals, but it does pose a potential problem if you decide to transmit.</p>
+</section>
+<section id="technician" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="technician">Technician</h3>
+<p>The introductory <a href="#amateur-radio-service">amateur radio service</a> license class.</p>
+</section>
+<section id="uhf" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="uhf">UHF</h3>
+<p>Ultra-high frequency. A set of frequencies between 300 <a href="#mhz">MHz</a> and 3 <a href="#ghz">GHz</a> (3,000 <a href="#mhz">MHz</a>). The 70<a href="#cm">cm</a> band is the most commonly used UHF ham band.</p>
+<p>Also, a type of coax connector also called PL-259 (male) and SO-239 (female).</p>
+</section>
+<section id="uls" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="uls">ULS</h3>
+<p>Universal Licensing System.</p>
+</section>
+<section id="usb" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="usb">USB</h3>
+<p>Upper sideband.</p>
+</section>
+<section id="utc" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="utc">UTC</h3>
+<p>Coordinated Universal Time. Primary worldwide time standard that does <em>not</em> adjust seasonally. See <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time">Wikipedia</a>.</p>
+</section>
+<section id="v" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="v">V</h3>
+<p>Volt or volts. A unit of electrical force.</p>
+</section>
+<section id="ve" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="ve">VE</h3>
+<p>Volunteer examiner. A licensed ham who participates in conducting ham tests.</p>
+</section>
+<section id="vfo" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="vfo">VFO</h3>
+<p>Variable frequency oscillator.</p>
+</section>
+<section id="vhf" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="vhf">VHF</h3>
+<p>Very high frequency. A set of frequencies between 30 and 300 <a href="#mhz">MHz</a>. The 6<a href="#m">m</a>, 2<a href="#m">m</a>, and 1.25<a href="#cm">cm</a> bands are VHF bands.</p>
+</section>
+<section id="voip" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="voip">VOiP</h3>
+<p>Voice Over Internet Protocol. A technology for sending voice signals over the internet. Digital voice modes such as <a href="#dmr">DMR</a>, [D-STAR], [Allstar], [EchoLink], and Yaesu System Fusion ([YSF]), <a href="#irlp">IRLP</a>, and [P25] often rely on VOiP.</p>
+</section>
+<section id="vox" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="vox">VOX</h3>
+<p>Voice-activated transmit.</p>
+</section>
+<section id="w" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="w">W</h3>
+<p>Watts. A unit of power.</p>
+</section>
+<section id="wspr" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="wspr">WSPR</h3>
+<p>Weak signal propagation reporter. A digital mode.</p>
+</section>
+</section>
+<section id="q-codes" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="q-codes">Q-codes</h2>
+<section id="qrm" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qrm">QRM</h3>
+<p>Man-made noise.</p>
+</section>
+<section id="qrn" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qrn">QRN</h3>
+<p>Natural noise.</p>
+</section>
+<section id="qrp" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qrp">QRP</h3>
+<p>Very low power, typically &lt; 5W.</p>
+</section>
+<section id="qrz" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qrz">QRZ</h3>
+<p>Who is calling me?</p>
+</section>
+<section id="qsl" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qsl">QSL</h3>
+<p>Confirming your transmission or Can you confirm my transmission?</p>
+</section>
+<section id="qso" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qso">QSO</h3>
+<p>A ham radio contact.</p>
+</section>
+<section id="qst" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qst">QST</h3>
+<p>A message for any and all radio amateurs. Also, the name of the monthly magazine provided to members of the <a href="#arrl">ARRL</a>.</p>
+</section>
+<section id="qth" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="qth">QTH</h3>
+<p>Home location or current operating location.</p>
+</section>
+</section>
+<section id="morse-code" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="morse-code">Morse code</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./fcc-part-97.html" class="pagination-link" aria-label="FCC Part 97">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">FCC Part 97</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./technician.html" class="pagination-link" aria-label="Technician Exam">
+        <span class="nav-page-text">Technician Exam</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

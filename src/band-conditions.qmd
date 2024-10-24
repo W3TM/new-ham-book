@@ -4,22 +4,70 @@
 
 This page is a work-in-progress.
 Many components are incomplete.
-I don't recommend reading it.
 
 :::
 
 ## About
 
-This chapter is about determining whether the HF and VHF *frequency* bands support long-distance (DX) communication.
+This chapter is about determining whether the HF and VHF *frequency* bands support long-distance (DX) communication (see also [this](technician.qmd#T3C02) Technician exam question).
 
 Why should you care about that?
 If you want to hear, and eventually communicate with stations all over the world, you will want to learn about when band conditions are right to support your dreams.
 
-## Propagation
+Hams with [HF](lingo.qmd#hf) privileges like to check in on band conditions from time to time since the conditions change regularly just like the weather.
 
-## Space Weather
+The main things to check are what bands are open to what places.
+The band or frequencies we can use to communicate with different places vary by time of day, time of year, current and long-term solar conditions.
 
-## Reverse Beacon Network
+Here are some resources to see how the bands are doing.
 
-## Weak Signal Propagation Reporter
+## HF propagation {-}
 
+The [hfpropagation.com site](https://www.hfpropagation.com) has some great visualizations about conditions on [HF].
+
+For example, the following shows a map of [RF](lingo.qmd#rf) propagation on the [HF](lingo.qmd#hf) bands centered on New York City:
+
+![Propagation map centered on NYC from https://www.hfpropagation.com](https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/HAP%20Charts/New%20York%20LDOCF.gif)
+
+Here is another way to visualize band conditions.
+
+<https://hf.dxview.org/perspective/FN10bt>
+
+::: {.callout-note}
+
+Look at the maps. Could you talk to New York City? On what band or bands?
+
+:::
+
+## VHF propagation {-}
+
+The [dxview](https://vhf.dxview.org) website shows [DX](lingo.qmd#dx) conditions on the 2m [VHF](lingo.qmd#vhf) band.
+These are typically much more short-lived than [DX](lingo.qmd#dx) openings on the [HF] bands.
+
+Here is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC](lingo.qmd#uhf.
+
+![VHF DX propagation on 2023-04-18 from https://vhf.dxview.org](include/img/vhf-propagation-dxview.org.png)
+
+## PSK Reporter {-}
+
+The pskreporter.info [site](https://pskreporter.info) aggregates thousands of signal reports from hams all around the world.
+
+For example, here is a real-time map of conditions *right now*.
+
+```{r, echo=FALSE, out.width="100%", fig.cap="https://pskreporter.info/pskmap.html"}
+knitr::include_url("https://pskreporter.info/pskmap.html", height="600px")
+```
+
+## WSPR Rocks {-}
+
+The wspr.rocks [site](https://wspr.rocks) provides some terrific visualizations of the latest Weak Signal Propagation Report [(WSPR)](lingo.qmd#wspr) data.
+
+Here is a map showing data about which [WSPR](lingo.qmd#wspr) stations are hearing one another on 2023-04-02:
+
+![Propagation from WSPR stations on 2023-04-02 from <https://http://wspr.rocks>](include/img/wspr-rocks-2023-04-02.png)
+
+And here is a plot of frequency vs. distance.
+
+![Propagation from WSPR stations on 2023-04-02 from <https://http://wspr.rocks>](include/img/wspr-rocks-freq-vs-distance.png)
+
+The 20m, 17m, and 15m bands were long (supporting long distance or [DX](lingo.qmd#dx) contacts) at the moment this figure was taken.

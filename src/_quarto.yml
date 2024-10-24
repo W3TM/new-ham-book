@@ -18,6 +18,7 @@ book:
         - id-signal.qmd
         - find-a-ham.qmd
         - ham-geography.qmd
+        - band-conditions.qmd
     - part: gear.qmd
       chapters:
         - planning.qmd
@@ -27,6 +28,12 @@ book:
     - part: "FCC Regulations"
       chapters:
         - fcc-part-97.qmd
+    - part: "Resources"
+      chapters:
+        - lingo.qmd
+    - part: "Exams"
+      chapters:
+        - technician.qmd
 
 bibliography: include/bib/ham.bib
 

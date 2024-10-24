@@ -1,6 +1,6 @@
 # Quest: APRS {- #quest-aprs}
 
-In this quest, we'll check-in on the Automatic Packet Reporting System (APRS) where hams across the world provide real-time information about their locations and exchange messages, including weather reports.
+In this quest, we'll check-in on the Automatic Packet Reporting System [(APRS)](lingo.qmd#aprs) where hams across the world provide real-time information about their locations and exchange messages, including weather reports.
 
 ## Visit [APRS.fi](https://aprs.fi) {-}
 

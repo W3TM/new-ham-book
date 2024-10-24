@@ -2,7 +2,7 @@
 
 ## About
 
-In this quest, you'll use WebSDR or an SDR receiver to try to find and identify various signals found on the HF and VHF/UHF bands.
+In this quest, you'll use WebSDR or an [SDR](lingo.qmd#sdr) receiver to try to find and identify various signals found on the HF and VHF/UHF bands.
 
 ```{r hf-signals, echo=FALSE, fig.align='center', fig.cap="HF signal chart from https://www.reddit.com/r/amateurradio/comments/12ota0q/hf_signal_identification_chart_the_shortawaited/?utm_source=share&utm_medium=ios_app&utm_name=ioscss&utm_content=1&utm_term=10"}
 knitr::include_graphics("include/img/hf-signal-chart-scaled.jpg")

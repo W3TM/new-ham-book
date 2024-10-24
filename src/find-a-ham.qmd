@@ -2,7 +2,7 @@
 
 ## About
 
-The FCC amateur radio license database is public.
+The Federal Communications Commmission ([FCC](lingo.qmd#fcc)) keeps a amateur radio license database is public.
 That's why some hams prefer to use a post office (P.O.) box as their permanent surface mailing address for their license.
 However, the fact that the database is public makes it easy to find hams in your geographic area.
 
@@ -25,7 +25,7 @@ knitr::include_graphics("include/img/hams-in-16801.png")
 
 If you check the "Show grid labels" checkbox you will see that the map shows the 6-character [grid square] designator.
 Some hams "collect" QSOs from different grid squares.
-Many hams operating [FT8] or [FT4] exchange grid squares, as do those who operate amateur satellites, see the [satellite quest](#quest-satellites).
+Many hams operating [FT8](lingo.qmd#ft8) or [FT4](lingo.qmd#ft4) exchange grid squares, as do those who operate amateur satellites, see the [satellite quest](#quest-satellites).
 
 ### Search for a specific callsign {-}
 
