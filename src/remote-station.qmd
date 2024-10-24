@@ -1,0 +1,22 @@
+# Remote station {-}
+
+::: {.callout-warning}
+This page is under construction.
+
+I don't recommend reading it.
+:::
+
+## About {-}
+
+This page provides some tips about operating remotely.
+
+## Considerations {-}
+
+## Options
+
+### Subscription service
+
+Remote Ham Radio
+
+
+

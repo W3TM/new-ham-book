@@ -34,15 +34,42 @@ So, what follows are three separate chapters relating to setting up a fixed stat
 
 ## SPARC-E
 
+Recently, I came up with an acronym to help me remember the components I need to bring when I travel or operate a portable station.
+It's a useful mnemonic for me to make sure I've considered the most important categories of equipment.
+It applies to planning most ham radio scenarios, and has a memorable pronunciation ("sparky") even if the spelling is a little wonky.
+
 ### Support
+
+- How will you support your antenna: a tree, a mast, etc.
 
 ### Power
 
+- How will you provide power for your station and accessories?
+
 ### Antenna
+
+- What antenna(s) will you bring and for what band(s) and mode(s)?
 
 ### Radio
 
+- What radio(s) will you bring and for what band(s) and mode(s)?
+
 ### Connectors
 
+- What connectors do you need?
+  - Coax for radio $\rightarrow$ antenna
+    - Coax connector adapters
+  - Power cables
+  - USB/serial cables to connect a computer to your radio
+
 ### Extras
+
+- Morse key or paddles for [CW](lingo.qmd#cw)
+- Microphone for voice
+- Computer for digital modes or logging
+- Headphones or headset
+- Foot switch for [PTT](lingo.qmd#ptt) if not using a hand mic or [VOX](lingo.qmd#vox)
+- Antenna analyzer
+- Antenna tuner if not using a resonant antenna
+- Paper & pencil
 

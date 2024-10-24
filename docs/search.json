@@ -506,32 +506,10 @@
     "href": "planning.html#sparc-e",
     "title": "Planning",
     "section": "SPARC-E",
-    "text": "SPARC-E\n\nSupport\n\n\nPower\n\n\nAntenna\n\n\nRadio\n\n\nConnectors\n\n\nExtras",
+    "text": "SPARC-E\nRecently, I came up with an acronym to help me remember the components I need to bring when I travel or operate a portable station. It’s a useful mnemonic for me to make sure I’ve considered the most important categories of equipment. It applies to planning most ham radio scenarios, and has a memorable pronunciation (“sparky”) even if the spelling is a little wonky.\n\nSupport\n\nHow will you support your antenna: a tree, a mast, etc.\n\n\n\nPower\n\nHow will you provide power for your station and accessories?\n\n\n\nAntenna\n\nWhat antenna(s) will you bring and for what band(s) and mode(s)?\n\n\n\nRadio\n\nWhat radio(s) will you bring and for what band(s) and mode(s)?\n\n\n\nConnectors\n\nWhat connectors do you need?\n\nCoax for radio \\(\\rightarrow\\) antenna\n\nCoax connector adapters\n\nPower cables\nUSB/serial cables to connect a computer to your radio\n\n\n\n\nExtras\n\nMorse key or paddles for CW\nMicrophone for voice\nComputer for digital modes or logging\nHeadphones or headset\nFoot switch for PTT if not using a hand mic or VOX\nAntenna analyzer\nAntenna tuner if not using a resonant antenna\nPaper & pencil",
     "crumbs": [
       "Gear",
       "Planning"
-    ]
-  },
-  {
-    "objectID": "home-station.html",
-    "href": "home-station.html",
-    "title": "Home station",
-    "section": "",
-    "text": "About\nMany hams set up a station at home, and this is their primary or sole radio station. This page discusses some of the considerations related to setting up and enjoying a home station.",
-    "crumbs": [
-      "Gear",
-      "Home station"
-    ]
-  },
-  {
-    "objectID": "home-station.html#considerations",
-    "href": "home-station.html#considerations",
-    "title": "Home station",
-    "section": "Considerations",
-    "text": "Considerations\nAs people experienced in real estate like to say, “location, location, location!” In ham radio terms that means where in your home you have available to set up your shack is a key consideration. Location matters for two reasons:\n\nIf you want to set up a station with HF capability, you’ll want and need to put your antenna somewhere else–not in the room with your radio gear. That somewhere else will often be outside although some hams have success putting antennas in an attic. If your antenna or antennas are outside, you’ll need a way to send RF signals to them.\nAll things being equal, you want your antenna feedlines to be as short as possible. Your feedlines dissipate RF power, although usually not very much if you use decent quality ones. Still, you want to pick a location in your home so that your equipment is as close to your antenna as possible so that your feedlines can be as short as possible.\nYou’ll need access to electrical power (120 V).\n\n\n\n\n\n\n\nTip\n\n\n\nIf your situation requires long feedlines, don’t worry. You can still have a grand old time on the radio.\nPick a location that’s most convenient, and build your station there.",
-    "crumbs": [
-      "Gear",
-      "Home station"
     ]
   },
   {
@@ -557,6 +535,28 @@
     ]
   },
   {
+    "objectID": "home-station.html",
+    "href": "home-station.html",
+    "title": "Home station",
+    "section": "",
+    "text": "About\nMany hams set up a station at home, and this is their primary or sole radio station. This page discusses some of the considerations related to setting up and enjoying a home station.",
+    "crumbs": [
+      "Gear",
+      "Home station"
+    ]
+  },
+  {
+    "objectID": "home-station.html#considerations",
+    "href": "home-station.html#considerations",
+    "title": "Home station",
+    "section": "Considerations",
+    "text": "Considerations\nAs people experienced in real estate like to say, “location, location, location!” In ham radio terms that means where in your home you have available to set up your shack is a key consideration. Location matters for two reasons:\n\nIf you want to set up a station with HF capability, you’ll want and need to put your antenna somewhere else–not in the room with your radio gear. That somewhere else will often be outside although some hams have success putting antennas in an attic. If your antenna or antennas are outside, you’ll need a way to send RF signals to them.\nAll things being equal, you want your antenna feedlines to be as short as possible. Your feedlines dissipate RF power, although usually not very much if you use decent quality ones. Still, you want to pick a location in your home so that your equipment is as close to your antenna as possible so that your feedlines can be as short as possible.\nYou’ll need access to electrical power (120 V).\n\n\n\n\n\n\n\nTip\n\n\n\nIf your situation requires long feedlines, don’t worry. You can still have a grand old time on the radio.\nPick a location that’s most convenient, and build your station there.",
+    "crumbs": [
+      "Gear",
+      "Home station"
+    ]
+  },
+  {
     "objectID": "mobile-station.html",
     "href": "mobile-station.html",
     "title": "Mobile station",
@@ -576,6 +576,28 @@
     "crumbs": [
       "Gear",
       "Mobile station"
+    ]
+  },
+  {
+    "objectID": "remote-station.html",
+    "href": "remote-station.html",
+    "title": "Remote station",
+    "section": "",
+    "text": "About\nThis page provides some tips about operating remotely.",
+    "crumbs": [
+      "Gear",
+      "Remote station"
+    ]
+  },
+  {
+    "objectID": "remote-station.html#considerations",
+    "href": "remote-station.html#considerations",
+    "title": "Remote station",
+    "section": "Considerations",
+    "text": "Considerations",
+    "crumbs": [
+      "Gear",
+      "Remote station"
     ]
   },
   {

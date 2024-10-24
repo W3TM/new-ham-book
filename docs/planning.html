@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./home-station.html" rel="next">
+<link href="./portable-station.html" rel="next">
 <link href="./gear.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -194,20 +223,26 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./home-station.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home station</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./portable-station.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Portable station</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./home-station.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home station</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./mobile-station.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mobile station</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./remote-station.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Remote station</span></a>
   </div>
 </li>
       </ul>
@@ -339,23 +374,57 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sparc-e" class="level2">
 <h2 class="anchored" data-anchor-id="sparc-e">SPARC-E</h2>
+<p>Recently, I came up with an acronym to help me remember the components I need to bring when I travel or operate a portable station. It’s a useful mnemonic for me to make sure I’ve considered the most important categories of equipment. It applies to planning most ham radio scenarios, and has a memorable pronunciation (“sparky”) even if the spelling is a little wonky.</p>
 <section id="support" class="level3">
 <h3 class="anchored" data-anchor-id="support">Support</h3>
+<ul>
+<li>How will you support your antenna: a tree, a mast, etc.</li>
+</ul>
 </section>
 <section id="power" class="level3">
 <h3 class="anchored" data-anchor-id="power">Power</h3>
+<ul>
+<li>How will you provide power for your station and accessories?</li>
+</ul>
 </section>
 <section id="antenna" class="level3">
 <h3 class="anchored" data-anchor-id="antenna">Antenna</h3>
+<ul>
+<li>What antenna(s) will you bring and for what band(s) and mode(s)?</li>
+</ul>
 </section>
 <section id="radio" class="level3">
 <h3 class="anchored" data-anchor-id="radio">Radio</h3>
+<ul>
+<li>What radio(s) will you bring and for what band(s) and mode(s)?</li>
+</ul>
 </section>
 <section id="connectors" class="level3">
 <h3 class="anchored" data-anchor-id="connectors">Connectors</h3>
+<ul>
+<li>What connectors do you need?
+<ul>
+<li>Coax for radio <span class="math inline">\(\rightarrow\)</span> antenna
+<ul>
+<li>Coax connector adapters</li>
+</ul></li>
+<li>Power cables</li>
+<li>USB/serial cables to connect a computer to your radio</li>
+</ul></li>
+</ul>
 </section>
 <section id="extras" class="level3">
 <h3 class="anchored" data-anchor-id="extras">Extras</h3>
+<ul>
+<li>Morse key or paddles for <a href="./lingo.html#cw">CW</a></li>
+<li>Microphone for voice</li>
+<li>Computer for digital modes or logging</li>
+<li>Headphones or headset</li>
+<li>Foot switch for <a href="./lingo.html#ptt">PTT</a> if not using a hand mic or <a href="./lingo.html#vox">VOX</a></li>
+<li>Antenna analyzer</li>
+<li>Antenna tuner if not using a resonant antenna</li>
+<li>Paper &amp; pencil</li>
+</ul>
 
 
 </section>
@@ -789,8 +858,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./home-station.html" class="pagination-link" aria-label="Home station">
-        <span class="nav-page-text">Home station</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./portable-station.html" class="pagination-link" aria-label="Portable station">
+        <span class="nav-page-text">Portable station</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

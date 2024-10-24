@@ -5,7 +5,7 @@ project:
 book:
   title: "New Ham Book"
   author: "Rick Gilmore W3TM"
-  date: "2024-10-22"
+  date: "2024-10-24"
   chapters:
     - index.qmd
     - part: hands-on.qmd
@@ -22,9 +22,10 @@ book:
     - part: gear.qmd
       chapters:
         - planning.qmd
-        - home-station.qmd
         - portable-station.qmd
+        - home-station.qmd
         - mobile-station.qmd
+        - remote-station.qmd
     - part: "FCC Regulations"
       chapters:
         - fcc-part-97.qmd
