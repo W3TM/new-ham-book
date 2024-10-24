@@ -13,15 +13,23 @@ See <https://www.mapability.com/ei8ic/maps/maps.php>
 
 <https://en.wikipedia.org/wiki/ITU_Region>
 
-```{r, echo=FALSE, fig.cap="ITU region map from https://www.mapability.com/ei8ic/maps/regions.php"}
-knitr::include_graphics("https://www.mapability.com/ei8ic/maps/IARU_Regions_01.png")
-```
+![ITU region map from <https://www.mapability.com/ei8ic/maps/regions.php>](https://www.mapability.com/ei8ic/maps/IARU_Regions_01.png){#fig-itu-regions}
+
+::: {.callout-important}
+## Your quest
+1. What's your IT Region?
+:::
 
 ## ITU Zones {-}
 
-```{r, echo=FALSE, fig.cap="ITU zones map from https://www.mapability.com/ei8ic/maps/ituzone.php"}
-knitr::include_graphics("https://www.mapability.com/ei8ic/maps/ITU_Zones_ARRL_01.png")
-```
+![ITU zones map from <https://www.mapability.com/ei8ic/maps/ituzone.php>](https://www.mapability.com/ei8ic/maps/ITU_Zones_ARRL_05.png){#fig-itu-zones}
+
+::: {.callout-important}
+## Your quest
+1. What's your IT Zone?
+:::
+
+In some DX contests, hams exchange their ITU zone along with their callsigns and a signal report.
 
 ## DX Entities {-}
 
@@ -55,7 +63,44 @@ knitr::include_graphics("https://www.mapability.com/ei8ic/maps/ARRL_RAC_Sections
 
 ## Summits on the Air {-}
 
+Some hams like to climb to the top of mountains and make contacts.
+The Summits on the Air ([SOTA](https://www.sota.org.uk)) program gives these adventurers a chance to get some exercise, enjoy some fantastic views, and make some QSOs.
+
+Here is a link to the SOTAWatch3 spotting page:
+
+<https://sotawatch.sota.org.uk/en/>
+
+It shows the hams who have announced that they are active on a summit somewhere in the world.
+
+Here is some information about the most popular summits (to hams): <https://www.sotadata.org.uk/en/summits/top>
+
+::: {.callout-important}
+## Your quest
+
+1. Open a WebSDR, say the K3FEF system at <http://websdr.k3fef.com>.
+2. Open the SOTAWatch3 spotting page at <https://sotawatch.sota.org.uk/en/>.
+3. Tune the WebSDR to the frequency of one of the hams on the SOTAWatch3 page.
+4. Can you hear the station? They might be sending Morse code. But chances are if you hear dits and dahs you're either hearing the station on the summit or someone trying to contact them.
+5. If you're not having much success, check propagation from the location of your chosen SDR to the summit. Maybe the band isn't open to that location.
+:::
+
 ## Parks on the Air {-}
+
+Parks on the Air ([POTA](https://parksontheair.com) is similar to SOTA.
+According to the official website, there are more than 500,000 unique ham callsigns who have either activated a park or made contact with someone in a park.
+
+Here is the POTA spotting page: <https://pota.app/#/>
+
+And here is the POTA map page: <https://pota.app/#/map>
+
+::: {.callout-important}
+## Your quest
+1. Open the POTA map page: <https://pota.app/#/map>
+2. What's the closest POTA park to your location?
+3. Click on that park for more information. For example, the closest official park entity to me is [US-9022](https://pota.app/#/park/US-9022). My friend Dean K3IWI was the first to activate it back in 2021, and it's been activated 36 times.
+4. What are the comparable stats for the park closest to you?
+5. Look at the statistics for the activations. Which mode or modes are used most often?
+:::
 
 ## Maidenhead Locator {-}
 
@@ -70,6 +115,12 @@ knitr::include_url("https://www.levinecentral.com/ham/grid_square.php?Call=K3CR"
 ```
 
 ## Latitude/Longitude {-}
+
+::: {.callout-warning}
+
+Under construction
+
+:::
 
 ## Great Circle maps {-}
 

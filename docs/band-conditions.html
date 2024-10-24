@@ -324,24 +324,15 @@ Warning
 </div>
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
-<p>This chapter is about determining whether the HF and VHF <em>frequency</em> bands support long-distance (DX) communication (see also <a href="./technician.html#T3C02">this</a> Technician exam question).</p>
+<p>This chapter is about determining whether the HF and VHF <em>frequency</em> bands support long-distance (<a href="./lingo.html#dx">DX</a>) communication (see also <a href="./technician.html#T3C02">this</a> Technician exam question).</p>
 <p>Why should you care about that? If you want to hear, and eventually communicate with stations all over the world, you will want to learn about when band conditions are right to support your dreams.</p>
-<p>Hams with <a href="./lingo.html#hf">HF</a> privileges like to check in on band conditions from time to time since the conditions change regularly just like the weather.</p>
-<p>The main things to check are what bands are open to what places. The band or frequencies we can use to communicate with different places vary by time of day, time of year, current and long-term solar conditions.</p>
-<p>Here are some resources to see how the bands are doing.</p>
+<p>Hams with <a href="./lingo.html#hf">HF</a> privileges like to check in on band conditions from time to time since the conditions change regularly just like the weather. The band or frequencies we can use to communicate with different places vary by time of day, time of year, current and long-term solar conditions.</p>
+<p>Here are some resources to see how the bands are doing. Your quest will be to try to determine whether you could communicate with some specific places.</p>
 </section>
 <section id="hf-propagation" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="hf-propagation">HF propagation</h2>
-<p>The <a href="https://www.hfpropagation.com">hfpropagation.com site</a> has some great visualizations about conditions on [HF].</p>
-<p>For example, the following shows a map of <a href="./lingo.html#rf">RF</a> propagation on the <a href="./lingo.html#hf">HF</a> bands centered on New York City:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/HAP%20Charts/New%20York%20LDOCF.gif" class="img-fluid figure-img"></p>
-<figcaption>Propagation map centered on NYC from https://www.hfpropagation.com</figcaption>
-</figure>
-</div>
-<p>Here is another way to visualize band conditions.</p>
-<p><a href="https://hf.dxview.org/perspective/FN10bt" class="uri">https://hf.dxview.org/perspective/FN10bt</a></p>
+<p>The most user-friendly tool I know for checking on HF band propagation is <a href="https://hf.dxview.org" class="uri">https://hf.dxview.org</a>.</p>
+<p>This site combines multiple data sources about the HF bands and displays them in a convenient and attractive set of maps that change every few seconds. It’s fun to watch the animation change, but to dig deeper, you’ll want to see how conditions are <em>from a particular perspective</em> or location. Mouse over your location or another location, then click to set the <em>perspective</em>. Note that the app uses Maidenhead Locators, otherwise known as grid squares. The <a href="./ham-geography.html#maidenhead-locator">Ham Geography Quest</a> takes a deeper dive into grid squares. My home shack is in FN10bt, so to see propagation conditions from my location, visit <a href="https://hf.dxview.org/perspective/FN10bt" class="uri">https://hf.dxview.org/perspective/FN10bt</a>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -352,19 +343,56 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Look at the maps. Could you talk to New York City? On what band or bands?</p>
+<p>Notice that that the app has a convenient API call you can use to select a grid square without having to use the mouse: Simply replace ‘FN10bt’ in the URL with the grid square of your choice, like say Reykjavik in Iceland (HP94ad), so</p>
+<p><a href="https://hf.dxview.org/perspective/HP94ad" class="uri">https://hf.dxview.org/perspective/HP94ad</a></p>
 </div>
 </div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Your quest
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Choose your location on the map.</li>
+<li>Do band conditions seem favorable for you to talk with Paris, Rome, Tokyo? On what bands?</li>
+<li>How about New York City or San Francisco?</li>
+</ol>
+</div>
+</div>
+<p>Here is another way to visualize band conditions. The <a href="https://www.hfpropagation.com">hfpropagation.com site</a> has some great visualizations about conditions on <a href="./lingo.html#hf">HF</a>. For example, the following shows a map of <a href="./lingo.html#rf">RF</a> propagation on the <a href="./lingo.html#hf">HF</a> bands centered on New York City:</p>
+<p><img src="https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/HAP%20Charts/New%20York%20LDOCF.gif" class="img-fluid" alt="Propagation map centered on NYC from https://www.hfpropagation.com"> This maps shows you the maximum useable frequency (MUF) that would support communication to different parts of the world. At the time I’m typing this (1900 UTC on 2024-10-24), 15m (21 MHz) is open to Spain, Africa, and South America; 20m and 17m are open to those areas plus Eastern Europe. I should stop working on this and chase some DX!</p>
 </section>
 <section id="vhf-propagation" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="vhf-propagation">VHF propagation</h2>
-<p>The <a href="https://vhf.dxview.org">dxview</a> website shows <a href="./lingo.html#dx">DX</a> conditions on the 2m <a href="./lingo.html#vhf">VHF</a> band. These are typically much more short-lived than <a href="./lingo.html#dx">DX</a> openings on the [HF] bands.</p>
+<p>The <a href="https://vhf.dxview.org">dxview</a> website also shows <a href="./lingo.html#dx">DX</a> conditions on the 2m <a href="./lingo.html#vhf">VHF</a> band. These are typically much more short-lived than <a href="./lingo.html#dx">DX</a> openings on the <a href="./lingo.html#hf">HF</a> bands.</p>
 <p>Here is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC](lingo.qmd#uhf.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="include/img/vhf-propagation-dxview.org.png" class="img-fluid figure-img"></p>
 <figcaption>VHF DX propagation on 2023-04-18 from https://vhf.dxview.org</figcaption>
 </figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Your quest
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Do band conditions seem favorable for you to talk with hams more than 50 mi from your home location?</li>
+<li>If so, where?</li>
+</ol>
+<p>If you had the right conditions, you’d need a mobile or base VHF radio with higher power than an <a href="./lingo.html#ht">HT</a> and a high gain (e.g.&nbsp;Yagi) antenna to chase VHF DX.</p>
+</div>
 </div>
 </section>
 <section id="psk-reporter" class="level2 unnumbered">
@@ -394,6 +422,7 @@ Note
 </figure>
 </div>
 <p>The 20m, 17m, and 15m bands were long (supporting long distance or <a href="./lingo.html#dx">DX</a> contacts) at the moment this figure was taken.</p>
+<p>WSPR is a mode that hams are using to cooperate with scientists who study the atmosphere and the effects of various astronomical events like eclipses on the atmosphere. Check out <a href="https://hamsci.org" class="uri">https://hamsci.org</a> for more information about that.</p>
 
 
 </section>

@@ -9,48 +9,70 @@ Many components are incomplete.
 
 ## About
 
-This chapter is about determining whether the HF and VHF *frequency* bands support long-distance (DX) communication (see also [this](technician.qmd#T3C02) Technician exam question).
+This chapter is about determining whether the HF and VHF *frequency* bands support long-distance ([DX](lingo.qmd#dx)) communication (see also [this](technician.qmd#T3C02) Technician exam question).
 
 Why should you care about that?
 If you want to hear, and eventually communicate with stations all over the world, you will want to learn about when band conditions are right to support your dreams.
 
 Hams with [HF](lingo.qmd#hf) privileges like to check in on band conditions from time to time since the conditions change regularly just like the weather.
-
-The main things to check are what bands are open to what places.
 The band or frequencies we can use to communicate with different places vary by time of day, time of year, current and long-term solar conditions.
 
 Here are some resources to see how the bands are doing.
+Your quest will be to try to determine whether you could communicate with some specific places.
 
 ## HF propagation {-}
 
-The [hfpropagation.com site](https://www.hfpropagation.com) has some great visualizations about conditions on [HF].
+The most user-friendly tool I know for checking on HF band propagation is <https://hf.dxview.org>.
 
+This site combines multiple data sources about the HF bands and displays them in a convenient and attractive set of maps that change every few seconds.
+It's fun to watch the animation change, but to dig deeper, you'll want to see how conditions are *from a particular perspective* or location.
+Mouse over your location or another location, then click to set the *perspective*.
+Note that the app uses Maidenhead Locators, otherwise known as grid squares.
+The [Ham Geography Quest](ham-geography.qmd#maidenhead-locator) takes a deeper dive into grid squares.
+My home shack is in FN10bt, so to see propagation conditions from my location, visit <https://hf.dxview.org/perspective/FN10bt>.
+
+::: {.callout-note}
+Notice that that the app has a convenient API call you can use to select a grid square without having to use the mouse: Simply replace 'FN10bt' in the URL with the grid square of your choice, like say Reykjavik in Iceland (HP94ad), so
+
+<https://hf.dxview.org/perspective/HP94ad>
+:::
+
+::: {.callout-important}
+## Your quest
+
+1. Choose your location on the map.
+2. Do band conditions seem favorable for you to talk with Paris, Rome, Tokyo? On what bands?
+3. How about New York City or San Francisco?
+:::
+
+Here is another way to visualize band conditions. The [hfpropagation.com site](https://www.hfpropagation.com) has some great visualizations about conditions on [HF](lingo.qmd#hf).
 For example, the following shows a map of [RF](lingo.qmd#rf) propagation on the [HF](lingo.qmd#hf) bands centered on New York City:
 
 ![Propagation map centered on NYC from https://www.hfpropagation.com](https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/HAP%20Charts/New%20York%20LDOCF.gif)
-
-Here is another way to visualize band conditions.
-
-<https://hf.dxview.org/perspective/FN10bt>
-
-::: {.callout-note}
-
-Look at the maps. Could you talk to New York City? On what band or bands?
-
-:::
+This maps shows you the maximum useable frequency (MUF) that would support communication to different parts of the world.
+At the time I'm typing this (1900 UTC on 2024-10-24), 15m (21 MHz) is open to Spain, Africa, and South America; 20m and 17m are open to those areas plus Eastern Europe.
+I should stop working on this and chase some DX!
 
 ## VHF propagation {-}
 
-The [dxview](https://vhf.dxview.org) website shows [DX](lingo.qmd#dx) conditions on the 2m [VHF](lingo.qmd#vhf) band.
-These are typically much more short-lived than [DX](lingo.qmd#dx) openings on the [HF] bands.
+The [dxview](https://vhf.dxview.org) website also shows [DX](lingo.qmd#dx) conditions on the 2m [VHF](lingo.qmd#vhf) band.
+These are typically much more short-lived than [DX](lingo.qmd#dx) openings on the [HF](lingo.qmd#hf) bands.
 
 Here is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC](lingo.qmd#uhf.
 
 ![VHF DX propagation on 2023-04-18 from https://vhf.dxview.org](include/img/vhf-propagation-dxview.org.png)
 
+::: {.callout-important}
+## Your quest
+1. Do band conditions seem favorable for you to talk with hams more than 50 mi from your home location?
+2. If so, where?
+
+If you had the right conditions, you'd need a mobile or base VHF radio with higher power than an [HT](lingo.qmd#ht) and a high gain (e.g. Yagi) antenna to chase VHF DX.
+:::
+
 ## PSK Reporter {-}
 
-The pskreporter.info [site](https://pskreporter.info) aggregates thousands of signal reports from hams all around the world.
+The pskreporter.info [site](https://pskreporter.info) aggregates thousands of signal reports from hams all around the world. 
 
 For example, here is a real-time map of conditions *right now*.
 
@@ -71,3 +93,6 @@ And here is a plot of frequency vs. distance.
 ![Propagation from WSPR stations on 2023-04-02 from <https://http://wspr.rocks>](include/img/wspr-rocks-freq-vs-distance.png)
 
 The 20m, 17m, and 15m bands were long (supporting long distance or [DX](lingo.qmd#dx) contacts) at the moment this figure was taken.
+
+WSPR is a mode that hams are using to cooperate with scientists who study the atmosphere and the effects of various astronomical events like eclipses on the atmosphere.
+Check out <https://hamsci.org> for more information about that.

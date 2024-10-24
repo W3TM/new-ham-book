@@ -319,7 +319,7 @@
     "href": "ham-geography.html#itu-regions",
     "title": "Quest: Ham geography",
     "section": "ITU Regions",
-    "text": "ITU Regions\nhttps://en.wikipedia.org/wiki/ITU_Region\n\n\n\n\n\nITU region map from https://www.mapability.com/ei8ic/maps/regions.php",
+    "text": "ITU Regions\nhttps://en.wikipedia.org/wiki/ITU_Region\n\n\n\n\n\n\nFigure 1: ITU region map from https://www.mapability.com/ei8ic/maps/regions.php\n\n\n\n\n\n\n\n\n\nYour quest\n\n\n\n\nWhat’s your IT Region?",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Ham geography"
@@ -330,7 +330,7 @@
     "href": "ham-geography.html#itu-zones",
     "title": "Quest: Ham geography",
     "section": "ITU Zones",
-    "text": "ITU Zones\n\n\n\n\n\nITU zones map from https://www.mapability.com/ei8ic/maps/ituzone.php",
+    "text": "ITU Zones\n\n\n\n\n\n\nFigure 2: ITU zones map from https://www.mapability.com/ei8ic/maps/ituzone.php\n\n\n\n\n\n\n\n\n\nYour quest\n\n\n\n\nWhat’s your IT Zone?\n\n\n\nIn some DX contests, hams exchange their ITU zone along with their callsigns and a signal report.",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Ham geography"
@@ -374,7 +374,7 @@
     "href": "ham-geography.html#summits-on-the-air",
     "title": "Quest: Ham geography",
     "section": "Summits on the Air",
-    "text": "Summits on the Air",
+    "text": "Summits on the Air\nSome hams like to climb to the top of mountains and make contacts. The Summits on the Air (SOTA) program gives these adventurers a chance to get some exercise, enjoy some fantastic views, and make some QSOs.\nHere is a link to the SOTAWatch3 spotting page:\nhttps://sotawatch.sota.org.uk/en/\nIt shows the hams who have announced that they are active on a summit somewhere in the world.\nHere is some information about the most popular summits (to hams): https://www.sotadata.org.uk/en/summits/top\n\n\n\n\n\n\nYour quest\n\n\n\n\nOpen a WebSDR, say the K3FEF system at http://websdr.k3fef.com.\nOpen the SOTAWatch3 spotting page at https://sotawatch.sota.org.uk/en/.\nTune the WebSDR to the frequency of one of the hams on the SOTAWatch3 page.\nCan you hear the station? They might be sending Morse code. But chances are if you hear dits and dahs you’re either hearing the station on the summit or someone trying to contact them.\nIf you’re not having much success, check propagation from the location of your chosen SDR to the summit. Maybe the band isn’t open to that location.",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Ham geography"
@@ -385,7 +385,7 @@
     "href": "ham-geography.html#parks-on-the-air",
     "title": "Quest: Ham geography",
     "section": "Parks on the Air",
-    "text": "Parks on the Air",
+    "text": "Parks on the Air\nParks on the Air (POTA is similar to SOTA. According to the official website, there are more than 500,000 unique ham callsigns who have either activated a park or made contact with someone in a park.\nHere is the POTA spotting page: https://pota.app/#/\nAnd here is the POTA map page: https://pota.app/#/map\n\n\n\n\n\n\nYour quest\n\n\n\n\nOpen the POTA map page: https://pota.app/#/map\nWhat’s the closest POTA park to your location?\nClick on that park for more information. For example, the closest official park entity to me is US-9022. My friend Dean K3IWI was the first to activate it back in 2021, and it’s been activated 36 times.\nWhat are the comparable stats for the park closest to you?\nLook at the statistics for the activations. Which mode or modes are used most often?",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Ham geography"
@@ -407,7 +407,7 @@
     "href": "ham-geography.html#latitudelongitude",
     "title": "Quest: Ham geography",
     "section": "Latitude/Longitude",
-    "text": "Latitude/Longitude",
+    "text": "Latitude/Longitude\n\n\n\n\n\n\nWarning\n\n\n\nUnder construction",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Ham geography"
@@ -429,7 +429,7 @@
     "href": "band-conditions.html",
     "title": "Quest: Band Conditions",
     "section": "",
-    "text": "About\nThis chapter is about determining whether the HF and VHF frequency bands support long-distance (DX) communication (see also this Technician exam question).\nWhy should you care about that? If you want to hear, and eventually communicate with stations all over the world, you will want to learn about when band conditions are right to support your dreams.\nHams with HF privileges like to check in on band conditions from time to time since the conditions change regularly just like the weather.\nThe main things to check are what bands are open to what places. The band or frequencies we can use to communicate with different places vary by time of day, time of year, current and long-term solar conditions.\nHere are some resources to see how the bands are doing.",
+    "text": "About\nThis chapter is about determining whether the HF and VHF frequency bands support long-distance (DX) communication (see also this Technician exam question).\nWhy should you care about that? If you want to hear, and eventually communicate with stations all over the world, you will want to learn about when band conditions are right to support your dreams.\nHams with HF privileges like to check in on band conditions from time to time since the conditions change regularly just like the weather. The band or frequencies we can use to communicate with different places vary by time of day, time of year, current and long-term solar conditions.\nHere are some resources to see how the bands are doing. Your quest will be to try to determine whether you could communicate with some specific places.",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Band Conditions"
@@ -440,7 +440,7 @@
     "href": "band-conditions.html#hf-propagation",
     "title": "Quest: Band Conditions",
     "section": "HF propagation",
-    "text": "HF propagation\nThe hfpropagation.com site has some great visualizations about conditions on [HF].\nFor example, the following shows a map of RF propagation on the HF bands centered on New York City:\n\n\n\nPropagation map centered on NYC from https://www.hfpropagation.com\n\n\nHere is another way to visualize band conditions.\nhttps://hf.dxview.org/perspective/FN10bt\n\n\n\n\n\n\nNote\n\n\n\nLook at the maps. Could you talk to New York City? On what band or bands?",
+    "text": "HF propagation\nThe most user-friendly tool I know for checking on HF band propagation is https://hf.dxview.org.\nThis site combines multiple data sources about the HF bands and displays them in a convenient and attractive set of maps that change every few seconds. It’s fun to watch the animation change, but to dig deeper, you’ll want to see how conditions are from a particular perspective or location. Mouse over your location or another location, then click to set the perspective. Note that the app uses Maidenhead Locators, otherwise known as grid squares. The Ham Geography Quest takes a deeper dive into grid squares. My home shack is in FN10bt, so to see propagation conditions from my location, visit https://hf.dxview.org/perspective/FN10bt.\n\n\n\n\n\n\nNote\n\n\n\nNotice that that the app has a convenient API call you can use to select a grid square without having to use the mouse: Simply replace ‘FN10bt’ in the URL with the grid square of your choice, like say Reykjavik in Iceland (HP94ad), so\nhttps://hf.dxview.org/perspective/HP94ad\n\n\n\n\n\n\n\n\nYour quest\n\n\n\n\nChoose your location on the map.\nDo band conditions seem favorable for you to talk with Paris, Rome, Tokyo? On what bands?\nHow about New York City or San Francisco?\n\n\n\nHere is another way to visualize band conditions. The hfpropagation.com site has some great visualizations about conditions on HF. For example, the following shows a map of RF propagation on the HF bands centered on New York City:\n This maps shows you the maximum useable frequency (MUF) that would support communication to different parts of the world. At the time I’m typing this (1900 UTC on 2024-10-24), 15m (21 MHz) is open to Spain, Africa, and South America; 20m and 17m are open to those areas plus Eastern Europe. I should stop working on this and chase some DX!",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Band Conditions"
@@ -451,7 +451,7 @@
     "href": "band-conditions.html#vhf-propagation",
     "title": "Quest: Band Conditions",
     "section": "VHF propagation",
-    "text": "VHF propagation\nThe dxview website shows DX conditions on the 2m VHF band. These are typically much more short-lived than DX openings on the [HF] bands.\nHere is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC](lingo.qmd#uhf.\n\n\n\nVHF DX propagation on 2023-04-18 from https://vhf.dxview.org",
+    "text": "VHF propagation\nThe dxview website also shows DX conditions on the 2m VHF band. These are typically much more short-lived than DX openings on the HF bands.\nHere is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC](lingo.qmd#uhf.\n\n\n\nVHF DX propagation on 2023-04-18 from https://vhf.dxview.org\n\n\n\n\n\n\n\n\nYour quest\n\n\n\n\nDo band conditions seem favorable for you to talk with hams more than 50 mi from your home location?\nIf so, where?\n\nIf you had the right conditions, you’d need a mobile or base VHF radio with higher power than an HT and a high gain (e.g. Yagi) antenna to chase VHF DX.",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Band Conditions"
@@ -473,7 +473,7 @@
     "href": "band-conditions.html#wspr-rocks",
     "title": "Quest: Band Conditions",
     "section": "WSPR Rocks",
-    "text": "WSPR Rocks\nThe wspr.rocks site provides some terrific visualizations of the latest Weak Signal Propagation Report (WSPR) data.\nHere is a map showing data about which WSPR stations are hearing one another on 2023-04-02:\n\n\n\nPropagation from WSPR stations on 2023-04-02 from https://http://wspr.rocks\n\n\nAnd here is a plot of frequency vs. distance.\n\n\n\nPropagation from WSPR stations on 2023-04-02 from https://http://wspr.rocks\n\n\nThe 20m, 17m, and 15m bands were long (supporting long distance or DX contacts) at the moment this figure was taken.",
+    "text": "WSPR Rocks\nThe wspr.rocks site provides some terrific visualizations of the latest Weak Signal Propagation Report (WSPR) data.\nHere is a map showing data about which WSPR stations are hearing one another on 2023-04-02:\n\n\n\nPropagation from WSPR stations on 2023-04-02 from https://http://wspr.rocks\n\n\nAnd here is a plot of frequency vs. distance.\n\n\n\nPropagation from WSPR stations on 2023-04-02 from https://http://wspr.rocks\n\n\nThe 20m, 17m, and 15m bands were long (supporting long distance or DX contacts) at the moment this figure was taken.\nWSPR is a mode that hams are using to cooperate with scientists who study the atmosphere and the effects of various astronomical events like eclipses on the atmosphere. Check out https://hamsci.org for more information about that.",
     "crumbs": [
       "Hands-on hamming",
       "Quest: Band Conditions"
@@ -595,6 +595,17 @@
     "title": "Remote station",
     "section": "Considerations",
     "text": "Considerations",
+    "crumbs": [
+      "Gear",
+      "Remote station"
+    ]
+  },
+  {
+    "objectID": "remote-station.html#options",
+    "href": "remote-station.html#options",
+    "title": "Remote station",
+    "section": "Options",
+    "text": "Options\n\nSubscription service\nRemote Ham Radio",
     "crumbs": [
       "Gear",
       "Remote station"
