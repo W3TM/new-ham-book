@@ -60,7 +60,7 @@ Effective 7/01/2022 – 6/30/2026
 
 [T1D] - Authorized and prohibited transmissions: communications with other countries, music, exchange of information with other services, indecent language, compensation for operating, retransmission of other amateur signals, encryption, sale of equipment, unidentified transmissions, one-way transmission 
 
-[T1E] - [control operator](#control-operator): eligibility, designating, privileges, duties, location, required; [control point](#control-point); Control types: automatic, remote 
+[T1E] - [control operator](lingo.qmd#control-operator): eligibility, designating, privileges, duties, location, required; [control point](lingo.qmd#control-point); Control types: automatic, remote 
 
 [T1F] - Station identification; Repeaters; Third party communications; Club stations; FCC inspection 
 
@@ -72,7 +72,7 @@ Effective 7/01/2022 – 6/30/2026
 
 [T2B] – VHF/UHF operating practices: FM repeater, simplex, reverse splits; Access tones: CTCSS, DTMF; [DMR] operation; Resolving operational problems; [Q signals](lingo.qmd#q-codes) 
 
-[T2C] – Public service: emergency operations, applicability of FCC rules, RACES and ARES, net and traffic procedures, operating restrictions during emergencies, use of phonetics in message handling 
+[T2C] – Public service: emergency operations, applicability of FCC rules, [RACES](lingo.qmd#races) and [ARES](lingo.qmd#ares), net and traffic procedures, operating restrictions during emergencies, use of phonetics in message handling 
 
 ### SUBELEMENT T3 – RADIO WAVE PROPAGATION  {-}
 
@@ -545,7 +545,6 @@ B. When the music produces no spurious emissions</br>
 C. When transmissions are limited to less than three minutes per hour</br>
 D. When the music is transmitted above 1280 MHz
 
-
 ##### T1D05 (D) [[97.113](fcc-part-97.qmd#97.113)(a)(3)(ii)] {- #T1D05}
 
 ***When may amateur radio operators use their stations to notify other amateurs of the availability of equipment for sale or trade?***
@@ -565,7 +564,6 @@ A. The FCC maintains a list of words that are not permitted to be used on amateu
 C. The ITU maintains a list of words that are not permitted to be used on amateur frequencies</br>
 D. There is no such prohibition 
 
-
 ##### T1D07 (D) [[97.113](fcc-part-97.qmd#97.113)(d)] {- #T1D07}
 
 ***What types of amateur stations can automatically retransmit the signals of other amateur stations?***
@@ -574,7 +572,6 @@ A. Auxiliary, beacon, or Earth stations</br>
 B. Earth, repeater, or space stations</br>
 C. Beacon, repeater, or space stations</br>
 **D. Repeater, auxiliary, or space stations**
-
 
 ##### T1D08 (B) [[97.113](fcc-part-97.qmd#97.113)(a)(3)(iii)] {- #T1D08}
 
@@ -982,10 +979,11 @@ C. Make sure you are authorized to use that frequency</br>
 
 #### T2B {-}
 
-[VHF]/[UHF] operating practices: [FM] repeater, simplex, reverse splits; Access tones: [CTCSS], [DTMF]; [DMR] operation; Resolving operational problems; [Q signals](q-codes) 
+[VHF]/[UHF] operating practices: [FM](lingo.qmd#fm) repeater, simplex, reverse splits; Access tones: [CTCSS](lingo.qmd#ctcss), [DTMF](lingo.qmd#dtmf); [DMR](lingo.qmd#dmr) operation; Resolving operational problems; [Q signals](lingo.qmd#q-codes) 
+
 ##### T2B01 (C) {- #T2B01}
 
-How is a [VHF]/[UHF] transceiver’s “reverse” function used? 
+How is a [VHF](lingo.qmd#vhf)/[UHF](lingo.qmd#uhf) transceiver’s “reverse” function used? 
 
 A. To reduce power output</br>
 B. To increase power output</br>
