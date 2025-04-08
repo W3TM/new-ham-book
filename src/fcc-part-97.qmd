@@ -9,9 +9,7 @@ Authority: [47 U.S.C. 151](https://www.govinfo.gov/link/uscode/47/151)–155, 30
 Source: [54 FR 25857](https://www.federalregister.gov/citation/54-FR-25857), June 20, 1989, unless otherwise noted.
 
 ::: {.callout-note}
- 
 Editorial Note: Nomenclature changes to part 97 appear at 63 FR 54077, Oct. 8, 1998.
-
 :::
 
 ## Subpart A—General Provisions {- #subpart-A}

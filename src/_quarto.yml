@@ -12,6 +12,7 @@ book:
       chapters: 
         - web-sdr.qmd
         - dmr.qmd
+        - broadcastify.qmd
         - aprs.qmd
         - satellites.qmd
         - pota-sota.qmd

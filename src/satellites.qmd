@@ -2,29 +2,31 @@
 
 Hams have launched satellites that permit communication across large areas, and the International Space Station (ISS) has ham radio equipment on board.
 
-## Visit <https://www.n2yo.com/space-station/> {-}
+## Visit N2YO's site {-}
+
+N2YO maintains a site to track [space satellites](https://www.n2yo.com/space-station/), including the ISS.
 
 The window in the upper left will show a map of the current location of the ISS.
 
 The window in the upper right will show the current live video feed from the ISS.
 If it's dark, that's probably because the ISS is on the night side of the Earth.
 
-## Visit the [Amateur Satellite Corporation (AMSAT)](https://www.amsat.org/) {-}
+## Visit Amateur Satellite Corporation (AMSAT) {-}
 
-The [Amateur Satellite Corporation (AMSAT)](https://www.amsat.org/) also maintains a tracking [site.](https://www.amsat.org/track/)
+The [Amateur Satellite Corporation (AMSAT)](https://www.amsat.org/) also maintains a tracking [site](https://www.amsat.org/track/).
 
 Here you can choose to track a number of amateur satellites.
 
-```{r echo=FALSE, fig.align='center'}
-knitr::include_graphics("include/img/amsat-track.png")
-```
+![Satellite pass prediction site from AMSAT: <https://www.amsat.org/track/>](include/img/amsat-track.png){#fig-amsat-track}
 
 The site will calculate the next time a satellite will pass over your location.
 You need to give it your latitude and longitude or your grid square for this to work.
 
 What's a grid square? Well every part of the Earth has been assigned a code that is a combination of letters and numbers. The codes are part of the [Maidenhead Locator System](https://en.wikipedia.org/wiki/Maidenhead_Locator_System).
 
-<p><a href="https://commons.wikimedia.org/wiki/File:Maidenhead_Locator_System_explained.svg#/media/File:Maidenhead_Locator_System_explained.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Maidenhead_Locator_System_explained.svg/1200px-Maidenhead_Locator_System_explained.svg.png" alt="Maidenhead Locator System explained.svg"></a><br>By &lt;a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid"&gt;Mysid&lt;/a&gt; - Self-drawn in Inkscape., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2526302">Link</a></p>
+![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Maidenhead_Locator_System_explained.svg/1200px-Maidenhead_Locator_System_explained.svg.png){#fig-maidenhead-locator}
+
+<!-- <p><a href="https://commons.wikimedia.org/wiki/File:Maidenhead_Locator_System_explained.svg#/media/File:Maidenhead_Locator_System_explained.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Maidenhead_Locator_System_explained.svg/1200px-Maidenhead_Locator_System_explained.svg.png" alt="Maidenhead Locator System explained.svg"></a><br>By &lt;a href="https://en.wikipedia.org/wiki/User:Mysid" class="extiw" title="w:User:Mysid"&gt;Mysid&lt;/a&gt; - Self-drawn in Inkscape., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2526302">Link</a></p> -->
 
 See the following two figures from Wikipedia.
 
@@ -36,25 +38,31 @@ To find out your particular grid square, visit <https://www.karhukoti.com/maiden
 The site gives you both your latitude and longitude and grid square.
 The figure below shows my approximate location and grid square, FN10.
 
-```{r echo=FALSE, fig.align='center'}
-knitr::include_graphics("include/img/karhukoti-grid-square.png")
-```
+![Find your Maidenhead grid square with the tool at <https://www.karhukoti.com/maidenhead-grid-square-locator>](include/img/karhukoti-grid-square.png){#fig-karhukoti-grid-square}
 
 Notice that grid squares can be increasingly precise.
 For our purposes now, the four character grid square is sufficient.
-Hams who operate digital modes like FT8 and FT4 using the WSJT-X software use grid squares, too.
+Hams who operate digital modes like FT8 and FT4 using the [WSJT-X](lingo.qmd#wsjt-x) software use grid squares, too.
 And some hams "collect" contacts in different grid squares.
 For now, we'll use our grid square to calculate when the ISS will pass over our grid square.
 
 ## When will the ISS pass over you next? {-}
 
-Enter your grid square in the AMSAT Tracking site.
+Enter your grid square in the AMSAT Tracking site (see @fig-amsat-track)
 
 Hit "Calculate Position" to let the site calculate your latitude and longitude, then hit the "Predict" button.
 
 The results show the next several passes of the [ISS] over my grid square.
 Yours will be different, even if you live in my grid square, because the ISS is always moving.
 
-```{r echo=FALSE, fig.align='center'}
-knitr::include_graphics("include/img/amsat-iss-pred-fn10.png")
-```
+![Predictions from AMSAT about some ISS passes in April 2023](include/img/amsat-iss-pred-fn10.png){#fig-amsat-fn10-iss-preds}
+
+## More satellites: SatNOGS
+
+The [Satellite Network of Ground Stations (SatNOGS)](https://satnogs.org) is another source for space cadets.
+
+Visit the SatNOGS [dashboard](https://dashboard.satnogs.org/) to explore what satellites SatNOGS station owners have found.
+
+Here is a link to the [ISS telemetry](https://dashboard.satnogs.org/d/UXoGX0OGk/iss-monitor) data retrieved by amateur ground stations.
+
+![Telemetry from the ISS received by amateur ground stations.](include/img/iss-telemetry-satnogs.png){#fig-iss-telemetry-satnogs}

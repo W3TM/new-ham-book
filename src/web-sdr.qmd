@@ -2,26 +2,24 @@
 
 ## Listening to radio over the web
 
-Thanks to the widespread availability of inexpensive software-defined radios (SDRs), it's possible to listen to the ham bands over the internet from sites located all over the world.
+Thanks to the widespread availability of inexpensive software-defined radios ([SDR](lingo.qmd#SDR)s), it's possible to listen to the ham [band](lingo.qmd#band)s over the internet from sites located all over the world.
 Yes, that means that your internet-connected phone, tablet, or computer can be your first ham radio receiver.
 
-In this quest, we'll check-in on the bands and listen to some [HF] [QSO]s.
+In this quest, we'll check-in on the bands and listen to some [HF](lingo.qmd#hf) [QSO](lingo.qmd#qso)s.
 
-::: {.callout-info}
-
+::: {.callout-note}
 Here are some other web-based SDRs you might try:
   
   <http://kiwisdr.com/public/>
   
   <http://www.maghull-scene.co.uk/radio.htm>
-
 :::
   
 ## Visit the WebSDR site at <https://websdr.org>. {-}
   
 You will see a screen like the following:
 
-![websdr.org](include/img/websdr-org.png)
+![websdr.org](include/img/websdr-org.png){#fig-websdr-org}
   
 Scroll down to see all of the places around the world where there are webSDR stations to listen to.
 You can pick any one you like, but we'll focus on one in the U.S. that we use often because it's close to our location.
@@ -35,10 +33,10 @@ So, it's often one to consult for listeners in our area.
 
 Here is a screenshot of the K3FEF control panel.
 
-![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr.png)
+![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr.png){#fig-k3fef-websdr}
 
 The dark blue area at the top depicts the band activity at the time you visit. 
-The figure shows radio signals being heard by K3FEF from about 3300 kHz (3.3 MHz) below the 80m ham band to 5300 kHz (5.5 MHz) in the 60m ham band.
+The figure shows radio signals being heard by K3FEF from about 3300 [kHz](lingo.qmd#kHz) (3.3 [MHz](lingo.qmd#MHz)) below the 80m ham band to 5300 kHz (5.5 MHz) in the 60m ham band.
 
 If you are watching this on the web, you will see upwards motion.
 This is how the webSDR depicts the time series or history of recent signals.
@@ -54,12 +52,12 @@ We'll explain what the yellow hump means a bit later.
 
 In the static figure above, you'll notice a lot of activity between about 3550 kHz and 4000 kHz.
 The 80m and 75m ham bands occupy 3500-4000 kHz, so those are hams communicating.
-The figure was taken about 8:00am EDT (1200 UTC).
+The figure was taken about 8:00am EDT (1200 [UTC](lingo.qmd#UTC)).
 These bands are usually open from evening to mid-morning.
 
 Let's focus on the white panel below the waterfall.
 
-![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr-panel-1.png)
+![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr-panel-1.png){#fig-k3fef-websdr-panel-1}
 
 The panel's **Frequency** control tells us that our radio is tuned to 3875 MHz, right in the middle of the 80/75m band, the phone (voice) portion.
 There are some controls to change the frequency, then below that, a set of buttons to change the band.
@@ -71,19 +69,19 @@ It does not cover the 15m or 12m bands, though.
 [^1]: Why is it called the 80m band and also the 75m band and sometimes the 80m/75m band? Well, 300/3.5=`r 300/3.5` and 300/4.0=`r 300/4.0`. So, the approximate speed of light (in millions of meters per second) divided by the frequency in MHz gives us the approximate wavelength of radio waves. 
 It's a single 0.5 MHz (500 kHz) chunk of frequency reserved exclusively for amateurs that roughly bracket ~80-75m.
 
-Below the **Frequency** control is a set of buttons that control **Bandwidth**.
+Below the **Frequency** control is a set of buttons that control **[Bandwidth](lingo.qmd#bandwidth)**.
 No, bandwidth is not the size of your favorite jazz combo.
 Bandwidth means how much of the frequency spectrum the webSDR is capturing at this moment, centered on the 3875 [kHz] frequency we just mentioned.
 Different types of radio transmissions (voice vs. Morse code/[CW] for example) have different bandwidths.
 We often want to adjust our bandwidth to match the type of signal.
 If the bandwidth is much wider than the signal, we're just adding noise.
 If the bandwidth is much narrower than the signal, we can lose information.
-Voice transmissions have wider bandwidth than Morse code/[CW].
+Voice transmissions have wider bandwidth than Morse code/[CW](lingo.qmd#CW).
 And different types of voice signals have different bandwidths.
-[FM] is the widest, for example; [AM] is in the middle; and single sideband [SSB] the narrowest.
+[FM] is the widest, for example; [AM](lingo.qmd#AM) is in the middle; and single sideband [SSB](lingo.qmd#SSB) the narrowest.
 
-Our bandwidth is 9.69 [kHz] @ -6 [dB] [^2].
-That's wide, except for broadcast FM stations.
+Our bandwidth is 9.69 [kHz] @ -6 [dB](lingo.qmd#dB) [^2].
+That's wide, except for broadcast [FM](lingo.qmd#FM) stations.
 We can adjust the bandwidth incrementally using the *wider*/*narrower* buttons or adjust the bandwidth to match a specific type of signal: *CW-wide*/*CW-nrw* (narrow), *LSB-wide*/*LSB-nrw*, *USB-wide*/*USB-nrw*, *AM-wide*/*AM-nrw*, and *FM*.
 We can also adjust the bandwidth manually.
 
@@ -97,7 +95,7 @@ Be ready to adjust the volume on your computer downward!
 
 Chances are that you'll just hear static since we're on a random frequency.
 
-![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr-panel-2.png)
+![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr-panel-2.png){#fig-k3fef-websdr-panel-2}
 
 To fix that, look at the **Waterfall view** panel. 
 Zoom *in* by clicking on the button a couple of times.
@@ -108,11 +106,11 @@ But you can find it again by clicking on the blue/purple area in the waterfall a
 
 In our case, there's a very strong signal around 3810 kHz.
 
-![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr-3875.png)
+![K3FEF webSDR at http://websdr.k3fef.com](include/img/k3fef-websdr-3875.png){#fig-k3fef-websdr-3875}
 
 Notice that most of the signal around 3810 kHz (3.810 MHz) lies *below* 3810.
 That's because on 75m and 80m, hams use Lower Sideband ([LSB]) for [phone] transmissions.
-To see another example of what LSB and upper sideband ([USB]) signals look like, see [figure below](#fig:hf-signals).
+To see another example of what LSB and upper sideband ([USB]) signals look like, see [figure below](#fig-hf-signals).
 
 ## Going further
 
@@ -141,7 +139,7 @@ For example, you can search for a net that meets specific criteria on the ARRL w
 You may also want to try the [NetFinder](https://netfinder.radio) site.
 
 ::: {.callout-note}
-
+## Things to add
 It would be good to add some information about some SWL stations that are easy to hear.
 
 Also, there are some nets that are good examples, e.g., the M-Su Rooster Net on 3.990 MHz (daily 6:00am Eastern time) and the YSL System Nets, and some frequencies that are *not* good examples, e.g., 7.200 MHz and 14.313 MHz.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quest: WebSDR – New Ham Book</title>
+<title>Quest: Broadcastify – New Ham Book</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./dmr.html" rel="next">
-<link href="./hands-on.html" rel="prev">
+<link href="./aprs.html" rel="next">
+<link href="./dmr.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hands-on.html">Hands-on hamming</a></li><li class="breadcrumb-item"><a href="./web-sdr.html">Quest: WebSDR</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hands-on.html">Hands-on hamming</a></li><li class="breadcrumb-item"><a href="./broadcastify.html">Quest: Broadcastify</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./web-sdr.html" class="sidebar-item-text sidebar-link active">
+  <a href="./web-sdr.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Quest: WebSDR</span></a>
   </div>
 </li>
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./broadcastify.html" class="sidebar-item-text sidebar-link">
+  <a href="./broadcastify.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Quest: Broadcastify</span></a>
   </div>
 </li>
@@ -280,25 +280,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#listening-to-radio-over-the-web" id="toc-listening-to-radio-over-the-web" class="nav-link active" data-scroll-target="#listening-to-radio-over-the-web">Listening to radio over the web</a></li>
-  <li><a href="#visit-the-websdr-site-at-httpswebsdr.org." id="toc-visit-the-websdr-site-at-httpswebsdr.org." class="nav-link" data-scroll-target="#visit-the-websdr-site-at-httpswebsdr.org.">Visit the WebSDR site at https://websdr.org.</a></li>
-  <li><a href="#visit-the-k3fef-web-sdr" id="toc-visit-the-k3fef-web-sdr" class="nav-link" data-scroll-target="#visit-the-k3fef-web-sdr">Visit the K3FEF web SDR</a></li>
-  <li><a href="#find-a-signal-to-listen-to" id="toc-find-a-signal-to-listen-to" class="nav-link" data-scroll-target="#find-a-signal-to-listen-to">Find a signal to listen to</a></li>
-  <li><a href="#going-further" id="toc-going-further" class="nav-link" data-scroll-target="#going-further">Going further</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hands-on.html">Hands-on hamming</a></li><li class="breadcrumb-item"><a href="./web-sdr.html">Quest: WebSDR</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hands-on.html">Hands-on hamming</a></li><li class="breadcrumb-item"><a href="./broadcastify.html">Quest: Broadcastify</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="quest-websdr" class="quarto-section-identifier">Quest: WebSDR</span></h1>
+<h1 class="title"><span id="quest-broadcastify" class="quarto-section-identifier">Quest: Broadcastify</span></h1>
 </div>
 
 
@@ -315,10 +305,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="listening-to-radio-over-the-web" class="level2">
-<h2 class="anchored" data-anchor-id="listening-to-radio-over-the-web">Listening to radio over the web</h2>
-<p>Thanks to the widespread availability of inexpensive software-defined radios (<a href="./lingo.html#SDR">SDR</a>s), it’s possible to listen to the ham <a href="./lingo.html#band">band</a>s over the internet from sites located all over the world. Yes, that means that your internet-connected phone, tablet, or computer can be your first ham radio receiver.</p>
-<p>In this quest, we’ll check-in on the bands and listen to some <a href="./lingo.html#hf">HF</a> <a href="./lingo.html#qso">QSO</a>s.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This page is a work-in-progress. Many components are incomplete.</p>
+</div>
+</div>
+<p>In this quest, we’ll listen-in on repeaters that broadcast all of their transmissions using the <a href="https://broadcastify.com">Broadcastify</a> service.</p>
+<p>Broadcastify retransmits policy, fire, and other emergency transmissions in addition to Amateur Radio communications. To listen-in on the ham activity, visit <a href="https://www.broadcastify.com/listen/coid/1/amateur" class="uri">https://www.broadcastify.com/listen/coid/1/amateur</a>. Click on the map to choose a state or choose one from the dropdown menu.</p>
+<div id="fig-" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig--caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/broadcastify-ham.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig--caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Screenshot from Broadcastify’s amateur radio page.
+</figcaption>
+</figure>
+</div>
+<p>Find a repeater you want to listen to, and click on the link.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -329,125 +341,12 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Here are some other web-based SDRs you might try:</p>
-<p><a href="http://kiwisdr.com/public/" class="uri">http://kiwisdr.com/public/</a></p>
-<p><a href="http://www.maghull-scene.co.uk/radio.htm" class="uri">http://www.maghull-scene.co.uk/radio.htm</a></p>
-</div>
-</div>
-</section>
-<section id="visit-the-websdr-site-at-httpswebsdr.org." class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="visit-the-websdr-site-at-httpswebsdr.org.">Visit the WebSDR site at <a href="https://websdr.org" class="uri">https://websdr.org</a>.</h2>
-<p>You will see a screen like the following:</p>
-<div id="fig-websdr-org" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-websdr-org-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="include/img/websdr-org.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-websdr-org-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: websdr.org
-</figcaption>
-</figure>
-</div>
-<p>Scroll down to see all of the places around the world where there are webSDR stations to listen to. You can pick any one you like, but we’ll focus on one in the U.S. that we use often because it’s close to our location.</p>
-</section>
-<section id="visit-the-k3fef-web-sdr" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="visit-the-k3fef-web-sdr">Visit the K3FEF web SDR</h2>
-<p>Go to <a href="http://websdr.k3fef.com" class="uri">http://websdr.k3fef.com</a>. This station is located in Milford, Pennsylvania on the Delaware River. It’s the closest one to Penn State. So, it’s often one to consult for listeners in our area.</p>
-<p>Here is a screenshot of the K3FEF control panel.</p>
-<div id="fig-k3fef-websdr" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-k3fef-websdr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="include/img/k3fef-websdr.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-k3fef-websdr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2: K3FEF webSDR at http://websdr.k3fef.com
-</figcaption>
-</figure>
-</div>
-<p>The dark blue area at the top depicts the band activity at the time you visit. The figure shows radio signals being heard by K3FEF from about 3300 <a href="./lingo.html#kHz">kHz</a> (3.3 <a href="./lingo.html#MHz">MHz</a>) below the 80m ham band to 5300 kHz (5.5 MHz) in the 60m ham band.</p>
-<p>If you are watching this on the web, you will see upwards motion. This is how the webSDR depicts the time series or history of recent signals. So, time is on the vertical axis of this two-dimensional figure. Sometimes this type of frequency-over-time display is called a waterfall. Except this waterfall falls upward.</p>
-<p>Below the figure are some orange ‘flag’ or labels that other listeners have added. These identify the specific transmissions. If you look especially closely, you’ll also see a yellow ‘hump’ around 3875 kHz. That’s the specific frequency this SDR defaulted to when we opened it up. We’ll explain what the yellow hump means a bit later.</p>
-<p>In the static figure above, you’ll notice a lot of activity between about 3550 kHz and 4000 kHz. The 80m and 75m ham bands occupy 3500-4000 kHz, so those are hams communicating. The figure was taken about 8:00am EDT (1200 <a href="./lingo.html#UTC">UTC</a>). These bands are usually open from evening to mid-morning.</p>
-<p>Let’s focus on the white panel below the waterfall.</p>
-<div id="fig-k3fef-websdr-panel-1" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-k3fef-websdr-panel-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="include/img/k3fef-websdr-panel-1.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-k3fef-websdr-panel-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: K3FEF webSDR at http://websdr.k3fef.com
-</figcaption>
-</figure>
-</div>
-<p>The panel’s <strong>Frequency</strong> control tells us that our radio is tuned to 3875 MHz, right in the middle of the 80/75m band, the phone (voice) portion. There are some controls to change the frequency, then below that, a set of buttons to change the band. The highlighted button confirms that we are in the 80/75m band<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<p>Notice that the K3FEF webSDR covers ham bands up through 6m. It does not cover the 15m or 12m bands, though.</p>
-<p>Below the <strong>Frequency</strong> control is a set of buttons that control <strong><a href="./lingo.html#bandwidth">Bandwidth</a></strong>. No, bandwidth is not the size of your favorite jazz combo. Bandwidth means how much of the frequency spectrum the webSDR is capturing at this moment, centered on the 3875 [kHz] frequency we just mentioned. Different types of radio transmissions (voice vs.&nbsp;Morse code/[CW] for example) have different bandwidths. We often want to adjust our bandwidth to match the type of signal. If the bandwidth is much wider than the signal, we’re just adding noise. If the bandwidth is much narrower than the signal, we can lose information. Voice transmissions have wider bandwidth than Morse code/<a href="./lingo.html#CW">CW</a>. And different types of voice signals have different bandwidths. [FM] is the widest, for example; <a href="./lingo.html#AM">AM</a> is in the middle; and single sideband <a href="./lingo.html#SSB">SSB</a> the narrowest.</p>
-<p>Our bandwidth is 9.69 [kHz] @ -6 <a href="./lingo.html#dB">dB</a> <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. That’s wide, except for broadcast <a href="./lingo.html#FM">FM</a> stations. We can adjust the bandwidth incrementally using the <em>wider</em>/<em>narrower</em> buttons or adjust the bandwidth to match a specific type of signal: <em>CW-wide</em>/<em>CW-nrw</em> (narrow), <em>LSB-wide</em>/<em>LSB-nrw</em>, <em>USB-wide</em>/<em>USB-nrw</em>, <em>AM-wide</em>/<em>AM-nrw</em>, and <em>FM</em>. We can also adjust the bandwidth manually.</p>
-</section>
-<section id="find-a-signal-to-listen-to" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="find-a-signal-to-listen-to">Find a signal to listen to</h2>
-<p>Click on the <span color="green">green</span> <em>Firefox audio start</em> button in the upper right hand of the screen. Be ready to adjust the volume on your computer downward! Or adjust the volume in the panel or even mute it (see the figure below).</p>
-<p>Chances are that you’ll just hear static since we’re on a random frequency.</p>
-<div id="fig-k3fef-websdr-panel-2" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-k3fef-websdr-panel-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="include/img/k3fef-websdr-panel-2.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-k3fef-websdr-panel-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4: K3FEF webSDR at http://websdr.k3fef.com
-</figcaption>
-</figure>
-</div>
-<p>To fix that, look at the <strong>Waterfall view</strong> panel. Zoom <em>in</em> by clicking on the button a couple of times. Sometimes zooming moves window beyond the frequency where you are currently tuned. If that happens, you won’t see the yellow ‘hump’ anymore.</p>
-<p>But you can find it again by clicking on the blue/purple area in the waterfall and dragging to the left or the right to put your current frequency–3875 kHz for our example–in the middle of the panel.</p>
-<p>In our case, there’s a very strong signal around 3810 kHz.</p>
-<div id="fig-k3fef-websdr-3875" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-k3fef-websdr-3875-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="include/img/k3fef-websdr-3875.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-k3fef-websdr-3875-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5: K3FEF webSDR at http://websdr.k3fef.com
-</figcaption>
-</figure>
-</div>
-<p>Notice that most of the signal around 3810 kHz (3.810 MHz) lies <em>below</em> 3810. That’s because on 75m and 80m, hams use Lower Sideband ([LSB]) for [phone] transmissions. To see another example of what LSB and upper sideband ([USB]) signals look like, see <a href="#fig-hf-signals">figure below</a>.</p>
-</section>
-<section id="going-further" class="level2">
-<h2 class="anchored" data-anchor-id="going-further">Going further</h2>
-<p>Now that you’ve gotten familiar with the K3FEF WebSDR, you might be curious to know what else there is to listen to, and equally important, <em>when</em>. I say when because the high frequency (HF) bands change their propagation characteristics–how far and how well they convey radio signals–based on the time of day, season of the year, and phase of the 11-year sunspot cycle, among other characteristics. We’ll do a deeper dive on these topics in the <a href="@quest-band-conditions">Band Conditions</a> quest. For now, here are some general rules of thumb about <em>where</em> to listen and <em>when</em>:</p>
-<p>75m/80m: These bands provide long distance (DX) communication at night, especially in the winter months, and regional communication in the early morning hours.</p>
-<p>40m: This band also provides long distance communication at night and more reliable regional communication in the daylight hours.</p>
-<p>20m: This band supports long distance communication during daylight hours.</p>
-<p>17m: This band supports long distance communication during daylight hours.</p>
-<p>15m: This band supports long distance communication during daylight hours.</p>
-<p>12m: This band supports long distance communication during daylight hours during the peak times of the sunspot cycle. It is often closed at the depth of that cycle.</p>
-<p>10m: This band supports long distance communication during daylight hours during the peak times of the sunspot cycle. It is often closed at the depth of that cycle.</p>
-<p>Now, you might be interested to know what’s worth listening to or for. My recommendation would be for you to listen to established nets that have published schedules. For example, you can search for a net that meets specific criteria on the ARRL website at <a href="http://www.arrl.org/arrl-net-directory-search">www.arrl.org/arrl-net-directory-search</a>. You may also want to try the <a href="https://netfinder.radio">NetFinder</a> site.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Things to add
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>It would be good to add some information about some SWL stations that are easy to hear.</p>
-<p>Also, there are some nets that are good examples, e.g., the M-Su Rooster Net on 3.990 MHz (daily 6:00am Eastern time) and the YSL System Nets, and some frequencies that are <em>not</em> good examples, e.g., 7.200 MHz and 14.313 MHz.</p>
+<p>Some repeaters don’t have a lot of traffic.</p>
+<p>You might want to choose one in a busy urban area.</p>
 </div>
 </div>
 
 
-</section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1"><p>Why is it called the 80m band and also the 75m band and sometimes the 80m/75m band? Well, 300/3.5=<code>r 300/3.5</code> and 300/4.0=<code>r 300/4.0</code>. So, the approximate speed of light (in millions of meters per second) divided by the frequency in MHz gives us the approximate wavelength of radio waves. It’s a single 0.5 MHz (500 kHz) chunk of frequency reserved exclusively for amateurs that roughly bracket ~80-75m.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>This means that if we look at the peak signal at 3875 kHz and calculate the point on both sides of 3875 kHz where the signal drops by 6 decibels (db) or about 4-fold, we’re left with 9.69 kHz of signal. The <em>width</em> of the yellow ‘hump’ in the waterfall display shows us this bandwidth visually.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -869,13 +768,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./hands-on.html" class="pagination-link" aria-label="Hands-on hamming">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Hands-on hamming</span>
+      <a href="./dmr.html" class="pagination-link" aria-label="Quest: DMR">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Quest: DMR</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./dmr.html" class="pagination-link" aria-label="Quest: DMR">
-        <span class="nav-page-text">Quest: DMR</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./aprs.html" class="pagination-link" aria-label="Quest: APRS">
+        <span class="nav-page-text">Quest: APRS</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

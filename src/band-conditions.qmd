@@ -1,10 +1,8 @@
 # Quest: Band Conditions {- #quest-band-conditions}
 
 ::: {.callout-warning}
-
 This page is a work-in-progress.
 Many components are incomplete.
-
 :::
 
 ## About
@@ -22,7 +20,7 @@ Your quest will be to try to determine whether you could communicate with some s
 
 ## HF propagation {-}
 
-The most user-friendly tool I know for checking on HF band propagation is <https://hf.dxview.org>.
+The most user-friendly tool I know for checking on [HF](lingo.qmd#hf) band propagation is <https://hf.dxview.org>.
 
 This site combines multiple data sources about the HF bands and displays them in a convenient and attractive set of maps that change every few seconds.
 It's fun to watch the animation change, but to dig deeper, you'll want to see how conditions are *from a particular perspective* or location.
@@ -60,7 +58,7 @@ These are typically much more short-lived than [DX](lingo.qmd#dx) openings on th
 
 Here is a screenshot of conditions observed around 2023-04-18 around 1820 [UTC](lingo.qmd#uhf.
 
-![VHF DX propagation on 2023-04-18 from https://vhf.dxview.org](include/img/vhf-propagation-dxview.org.png)
+![VHF DX propagation on 2023-04-18 from https://vhf.dxview.org](include/img/vhf-propagation-dxview.org.png){#fig-vhf-propagation-dxview.org}
 
 ::: {.callout-important}
 ## Your quest
@@ -86,11 +84,11 @@ The wspr.rocks [site](https://wspr.rocks) provides some terrific visualizations 
 
 Here is a map showing data about which [WSPR](lingo.qmd#wspr) stations are hearing one another on 2023-04-02:
 
-![Propagation from WSPR stations on 2023-04-02 from <https://http://wspr.rocks>](include/img/wspr-rocks-2023-04-02.png)
+![Propagation from WSPR stations on 2023-04-02 from <https://http://wspr.rocks>](include/img/wspr-rocks-2023-04-02.png){#fig-wspr-rocks-2023-04-02}
 
 And here is a plot of frequency vs. distance.
 
-![Propagation from WSPR stations on 2023-04-02 from <https://http://wspr.rocks>](include/img/wspr-rocks-freq-vs-distance.png)
+![Propagation from WSPR stations on 2023-04-02 from <https://http://wspr.rocks>](include/img/wspr-rocks-freq-vs-distance.png){#fig-wspr-rocks-freq-vs-distance}
 
 The 20m, 17m, and 15m bands were long (supporting long distance or [DX](lingo.qmd#dx) contacts) at the moment this figure was taken.
 

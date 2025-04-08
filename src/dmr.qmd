@@ -8,41 +8,54 @@ These activities are relevant to the following Technician license pool questions
 
 :::
 
-You can listen to Digital Mobile Radio ([DMR]) transmissions across the globe on the web without having to log in or have a ham radio license.
+You can listen to Digital Mobile Radio ([DMR](lingo.qmd#dmr)) transmissions across the globe on the web without having to log in or have a ham radio license.
 
 In this quest, we'll listen in on some conversations using DMR.
 
-Remember, as a ham, all of our communications except those controlling aircraft or satellites are presumed public.
+::: {.callout-important}
+## Ham radio is not private
 
-## Visit the [Brandmeister Network](https://brandmeister.network) {-}
+You might be surprised that anyone can listen to these conversations.
 
-The Brandmeister Network is one of the largest organizations providing DMR services.
-The Brandmeister Network maintains a [hoseline site](https://hose.brandmeister.network) that shows all of the DMR traffic going through the Network.
+In fact, all ham communications except those controlling aircraft or satellites are presumed public.
+Said a different way, in exchange for the (sometimes exclusive) privilege to transmit on specific radio frequencies, hams agree to have their transmissions subject to monitoring.
+
+This implies that you should consider carefully what you say on the radio.
+
+The old rules about what considerate people don't talk about in polite company still apply.
+:::
+
+## Brandmeister Network {-}
+
+The [Brandmeister Network](https://brandmeister.network) is one of the largest organizations providing [DMR](lingo.qmd#dmr) services.
+The Brandmeister Network maintains a [hoseline site](https://hose.brandmeister.network) that shows all of the [DMR](lingo.qmd#dmr) traffic going through the Network.
 
 You will see something like the following:
 
-```{r, echo=FALSE, out.width="100%", fig.cap="Brandmeister DMR hoseline as of 2023-04-03 about 1745Z"}
-knitr::include_graphics("include/img/brandmeister-hoseline-2023-04-03.png")
-```
+![Screenshot of the Brandmeister hoseline site on 2023-04-03.](include/img/brandmeister-hoseline-2023-04-03.png){#fig-include/img/brandmeister-hoseline-2023-04-03}
 
 This shows all of the stations connected to the Brandmeister network in the entire world.
 
+::: {.callout-note}
+
+The [TGIF network](https://tgif.network) provides an alternative to Brandmeister.
+
+Visit <https://tgif.network/lastheard.php> to watch [DMR](lingo.qmd#dmr) [QSO](lingo.qmd#qso)s on this network as they occur.
+
+:::
+
 ## Click on an active QSO {-}
 
-To listen in on one of these [QSO]s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.
+To listen in on one of these [QSO](lingo.qmd#qso)s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.
 
-```{r, echo=FALSE, fig.align='center'}
-knitr::include_graphics("include/img/brandmeister-network-active-qso.png")
-```
+![An example of an active QSO on the Brandmeister DMR network.](include/img/brandmeister-network-active-qso.png){#fig-include/img/brandmeister-network-active-qso}
 
 You can also listen in on specific talkgroups.
 A talkgroup is like a repeater, except that it repeats signals from stations connected via the internet.
-There is often traffic on talkgroup 91 (Worldwide) or talkgroup 93 (North America), so let's listen in on those.
+There is often traffic on talkgroup 91 (TG91 Worldwide) or talkgroup 93 (TG93 North America), so let's listen in on those.
 
 Click the PLAYER button in the upper right hand corner.
 
 This will open a small panel where you can select what talkgroups to listen to or which stations to monitor.
 
-```{r, echo=FALSE, fig.align='center', fig.cap="PLAYER panel from hose.brandmeister.network"}
-knitr::include_graphics("include/img/brandmeister-hoseline-player-panel.png")
-```
+![Player panel from the Brandmeister hoseline site](include/img/brandmeister-hoseline-player-panel.png){#fig-brandmeister-hoseline-player-panel}

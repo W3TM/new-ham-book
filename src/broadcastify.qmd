@@ -1,0 +1,22 @@
+# Quest: Broadcastify {- #quest-broadcastify}
+
+::: {.callout-warning}
+This page is a work-in-progress.
+Many components are incomplete.
+:::
+
+In this quest, we'll listen-in on repeaters that broadcast all of their transmissions using the [Broadcastify](https://broadcastify.com) service.
+
+Broadcastify retransmits policy, fire, and other emergency transmissions in addition to Amateur Radio communications.
+To listen-in on the ham activity, visit <https://www.broadcastify.com/listen/coid/1/amateur>.
+Click on the map to choose a state or choose one from the dropdown menu.
+
+![Screenshot from Broadcastify's amateur radio page.](include/img/broadcastify-ham.png){#fig-}
+
+Find a repeater you want to listen to, and click on the link.
+
+::: {.callout-note}
+Some repeaters don't have a lot of traffic.
+
+You might want to choose one in a busy urban area.
+:::

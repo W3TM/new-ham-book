@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,17 +30,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./aprs.html" rel="next">
+<link href="./broadcastify.html" rel="next">
 <link href="./web-sdr.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-626149efe8f5d16e1d391ba177679bf0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -131,6 +131,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./dmr.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Quest: DMR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./broadcastify.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quest: Broadcastify</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -279,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#visit-the-brandmeister-network" id="toc-visit-the-brandmeister-network" class="nav-link active" data-scroll-target="#visit-the-brandmeister-network">Visit the Brandmeister Network</a></li>
+  <li><a href="#brandmeister-network" id="toc-brandmeister-network" class="nav-link active" data-scroll-target="#brandmeister-network">Brandmeister Network</a></li>
   <li><a href="#click-on-an-active-qso" id="toc-click-on-an-active-qso" class="nav-link" data-scroll-target="#click-on-an-active-qso">Click on an active QSO</a></li>
   </ul>
 </nav>
@@ -320,49 +326,61 @@ Tip
 <p><a href="technician.html#T2B12">T2B12</a>; <a href="technician.html#T4B07">T4B07</a>; <a href="technician.html#T8D02">T8D02</a>; <a href="technician.html#T8D07">T8D07</a>.</p>
 </div>
 </div>
-<p>You can listen to Digital Mobile Radio ([DMR]) transmissions across the globe on the web without having to log in or have a ham radio license.</p>
+<p>You can listen to Digital Mobile Radio (<a href="./lingo.html#dmr">DMR</a>) transmissions across the globe on the web without having to log in or have a ham radio license.</p>
 <p>In this quest, we’ll listen in on some conversations using DMR.</p>
-<p>Remember, as a ham, all of our communications except those controlling aircraft or satellites are presumed public.</p>
-<section id="visit-the-brandmeister-network" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="visit-the-brandmeister-network">Visit the <a href="https://brandmeister.network">Brandmeister Network</a></h2>
-<p>The Brandmeister Network is one of the largest organizations providing DMR services. The Brandmeister Network maintains a <a href="https://hose.brandmeister.network">hoseline site</a> that shows all of the DMR traffic going through the Network.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ham radio is not private
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You might be surprised that anyone can listen to these conversations.</p>
+<p>In fact, all ham communications except those controlling aircraft or satellites are presumed public. Said a different way, in exchange for the (sometimes exclusive) privilege to transmit on specific radio frequencies, hams agree to have their transmissions subject to monitoring.</p>
+<p>This implies that you should consider carefully what you say on the radio.</p>
+<p>The old rules about what considerate people don’t talk about in polite company still apply.</p>
+</div>
+</div>
+<section id="brandmeister-network" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="brandmeister-network">Brandmeister Network</h2>
+<p>The <a href="https://brandmeister.network">Brandmeister Network</a> is one of the largest organizations providing <a href="./lingo.html#dmr">DMR</a> services. The Brandmeister Network maintains a <a href="https://hose.brandmeister.network">hoseline site</a> that shows all of the <a href="./lingo.html#dmr">DMR</a> traffic going through the Network.</p>
 <p>You will see something like the following:</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="include/img/brandmeister-hoseline-2023-04-03.png" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Brandmeister DMR hoseline as of 2023-04-03 about 1745Z</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<p><img src="include/img/brandmeister-hoseline-2023-04-03.png" class="img-fluid" alt="Screenshot of the Brandmeister hoseline site on 2023-04-03.">{#fig-include/img/brandmeister-hoseline-2023-04-03}</p>
 <p>This shows all of the stations connected to the Brandmeister network in the entire world.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The <a href="https://tgif.network">TGIF network</a> provides an alternative to Brandmeister.</p>
+<p>Visit <a href="https://tgif.network/lastheard.php" class="uri">https://tgif.network/lastheard.php</a> to watch <a href="./lingo.html#dmr">DMR</a> <a href="./lingo.html#qso">QSO</a>s on this network as they occur.</p>
+</div>
+</div>
 </section>
 <section id="click-on-an-active-qso" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="click-on-an-active-qso">Click on an active QSO</h2>
-<p>To listen in on one of these [QSO]s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="include/img/brandmeister-network-active-qso.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>You can also listen in on specific talkgroups. A talkgroup is like a repeater, except that it repeats signals from stations connected via the internet. There is often traffic on talkgroup 91 (Worldwide) or talkgroup 93 (North America), so let’s listen in on those.</p>
+<p>To listen in on one of these <a href="./lingo.html#qso">QSO</a>s, click on an active QSO. Active QSOs will be outlined in <span color="red">red</span>.</p>
+<p><img src="include/img/brandmeister-network-active-qso.png" class="img-fluid" alt="An example of an active QSO on the Brandmeister DMR network.">{#fig-include/img/brandmeister-network-active-qso}</p>
+<p>You can also listen in on specific talkgroups. A talkgroup is like a repeater, except that it repeats signals from stations connected via the internet. There is often traffic on talkgroup 91 (TG91 Worldwide) or talkgroup 93 (TG93 North America), so let’s listen in on those.</p>
 <p>Click the PLAYER button in the upper right hand corner.</p>
 <p>This will open a small panel where you can select what talkgroups to listen to or which stations to monitor.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="include/img/brandmeister-hoseline-player-panel.png" class="img-fluid figure-img"></p>
-<figcaption>PLAYER panel from hose.brandmeister.network</figcaption>
+<div id="fig-brandmeister-hoseline-player-panel" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-brandmeister-hoseline-player-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="include/img/brandmeister-hoseline-player-panel.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-brandmeister-hoseline-player-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Player panel from the Brandmeister hoseline site
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 
 
@@ -451,8 +469,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -563,7 +579,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -796,8 +811,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./aprs.html" class="pagination-link" aria-label="Quest: APRS">
-        <span class="nav-page-text">Quest: APRS</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./broadcastify.html" class="pagination-link" aria-label="Quest: Broadcastify">
+        <span class="nav-page-text">Quest: Broadcastify</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

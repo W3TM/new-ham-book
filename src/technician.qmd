@@ -2,8 +2,6 @@
 
 The following was downloaded from <http://www.ncvec.org/page.php?id=373> on 2023-04-01 by VE W3TM.
 
-[T2B12](#T2B12)
-
 ---
 
 Modification of Public Release issued on March 7, 2022
@@ -91,7 +89,6 @@ Effective 7/01/2022 – 6/30/2026
 [T4A] – Station setup: connecting a microphone, a power source, a computer, digital equipment, an SWR meter; bonding; Mobile radio installation 
 
 [T4B] - Operating controls: frequency tuning, use of filters, squelch function, [AGC](lingo.qmd#agc), memory channels, noise blanker, microphone gain, receiver incremental tuning (RIT), bandwidth selection, digital transceiver configuration 
-
 
 ### SUBELEMENT T5 – ELECTRICAL PRINCIPLES {-}
 

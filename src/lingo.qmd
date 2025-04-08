@@ -97,9 +97,13 @@ American Radio Relay League. The non-profit membership organization for U.S.-lic
 
 ### ARQ {-}
 
-[Automatic repeat request](https://en.wikipedia.org/wiki/Automatic_repeat_request).
+[Automatic repeat request](https://en.wikipedia.org/wiki/Automatic_repeat_request). 
 
-### [CSCE] {-}
+### Band {-}
+
+A set of adjacent frequencies usually identified by their approximate wavelength in meters, as in the 40 meter (40m) band.
+
+### CSCE {-}
 
 Certificate of Successful Completion of (an amateur radio licensing) Examination.
 
@@ -248,7 +252,11 @@ Microfarad. A unit of capacitance. 1/1,000,000 of a Farad. $\mu F$ is another ab
 
 ### MHz {-}
 
-Megahertz. A unit of frequency. 1 MHz is 1 million cycles/sec or 1 million Hertz (Hz). The 'H' is capitalized because it is named after Henrich Hertz.
+Megahertz. A unit of frequency. 1 MHz is 1 million cycles/sec or 1 million Hertz (Hz). The 'H' is capitalized because it is named after [Henrich Hertz](https://en.wikipedia.org/wiki/Heinrich_Hertz).
+
+### MUF {-}
+
+Maximum useable frequency at a given point in time and location on Earth.
 
 ### NCS {-}
 
@@ -256,7 +264,7 @@ Net control station.
 
 ### P {-}
 
-Power. $P=IE=I^2R$. Power is usually measured in watts ([w]) or some multiple of watts.
+Power. $P=IE=I^2R$. Power is usually measured in watts ([W](lingo.qmd#w)) or some multiple of watts (e.g, kilowatts or kW).
 
 ### Phone {-}
 
@@ -382,7 +390,11 @@ Voice-activated transmit.
 
 ### W {-}
 
-Watts. A unit of power.
+Watts. A unit of power. Named after James Watt
+
+### WSJT-X {-}
+
+A free weak signal digital mode application for computer to computer communications, available at <https://wsjt.sourceforge.io/wsjtx.html>
 
 ### WSPR {-}
 
