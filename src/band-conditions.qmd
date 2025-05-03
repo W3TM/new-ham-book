@@ -46,10 +46,35 @@ Notice that that the app has a convenient API call you can use to select a grid 
 Here is another way to visualize band conditions. The [hfpropagation.com site](https://www.hfpropagation.com) has some great visualizations about conditions on [HF](lingo.qmd#hf).
 For example, the following shows a map of [RF](lingo.qmd#rf) propagation on the [HF](lingo.qmd#hf) bands centered on New York City:
 
-![Propagation map centered on NYC from https://www.hfpropagation.com](https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/HAP%20Charts/New%20York%20LDOCF.gif)
+![Propagation map centered on NYC from https://www.hfpropagation.com](https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/HAP%20Charts/New%20York%20LDOCF.gif){#fig-hf-propagation-map}
 This maps shows you the maximum useable frequency (MUF) that would support communication to different parts of the world.
 At the time I'm typing this (1900 UTC on 2024-10-24), 15m (21 MHz) is open to Spain, Africa, and South America; 20m and 17m are open to those areas plus Eastern Europe.
 I should stop working on this and chase some DX!
+
+### DX Clusters
+
+Many hams enjoy "chasing DX" or trying to make as many contacts as possible with stations located at great distances. 
+
+There are computer servers connected to radios across the world that report information about what stations are being heard, on what frequencies, and where.
+
+Here is a site that brings some of that information together in a visually attractive interface: <https://holycluster.iarc.org>.
+
+![Conditions for FN10bt on 2025-05-03 from holycluster.iarc.org.](include/img/holy-cluster.png){#fig-holy-cluster}
+
+It looks like there are a lot of stations on 20m.
+
+If you want to see what conditions are like in your neighborhood, visit <https://grid.radio> to find your [Maidenhead Locator](ham-geography.qmd#maidenhead-locator. 
+Enter that into the Holy Cluster to generate a map for your location.
+
+::: {.callout-note}
+
+The circular map of the Earth is also called a Great Circle projection.
+
+It's convenient way for hams who have a directional antenna, like a Yagi antenna, to know where to point their antenna to talk to different parts of the world.
+
+**Note**: The white circle indicates the part of the Earth that is currently in daylight.
+
+:::
 
 ## VHF propagation {-}
 
